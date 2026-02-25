@@ -2,68 +2,41 @@ package Cubesat_Reference_Model {
     doc /* This is the interpreted information from the Cubesat Reference Model by the Object Management Group. https://www.omg.org/spec/CSRM/1.1/PDF */
     private import ScalarValues::*;
     private import ISQ::*;
+    
+    //* Requirement Definitions (CSRM Section 6.1 hierarchy) */
 
-package CSRM_Concerns_and_Requirements_Profile {
-    private import ScalarValues::*;
-    
-    /* * Base Requirement Stereotypes 
-     * All requirements in this profile inherit from ExtRequirement [cite: 198, 241, 759]
-     */
-    
-    // Enumerations used in ExtRequirement
-    enum def RiskKind {
-        High;
-        Medium;
-        Low;
+    // Base type used by the CSRM Concerns & Requirements Profile.
+    // In CSRM, most requirement types in this profile generalize ExtRequirement.
+    abstract requirement def ExtRequirement {
+        // Optional metadata placeholders (tool-specific implementation may vary)
+        // attribute source: String;
+        // attribute risk;
+        // attribute validatedBy;
     }
 
-    requirement def ExtRequirement {
-        attribute source: String; 
-        attribute risk: RiskKind = RiskKind::Medium; 
-        // Note: validatedBy is often a derived relationship in MBSE tools 
-    }
+    // ---- High-level mission/concern requirement types ----
+    requirement def StakeholderConcern :> ExtRequirement;
+    requirement def MissionObjective   :> ExtRequirement;
+    requirement def MissionNeed        :> ExtRequirement;
+    requirement def MissionConstraint  :> ExtRequirement;
+    requirement def MissionRequirement :> ExtRequirement;
 
-    /* * 6.1.1 - 6.1.5 Top-Level Mission Drivers [cite: 68]
-     */
-    
-    requirement def StakeholderConcern specialize ExtRequirement; 
-    
-    requirement def MissionNeed specialize ExtRequirement; 
-    
-    requirement def MissionObjective specialize ExtRequirement; 
-    
-    requirement def MissionConstraint specialize ExtRequirement; 
-    
-    requirement def MissionRequirement specialize ExtRequirement; 
+    // ---- Architecture-level requirement types ----
+    requirement def SubsystemRequirement :> ExtRequirement;
+    requirement def ComponentRequirement :> ExtRequirement;
+    requirement def DeployerRequirement  :> ExtRequirement;
+    requirement def Group                :> ExtRequirement;
 
-    /* * 6.1.7 - 6.1.15 Segment and Structural Requirements [cite: 68]
-     */
+    // ---- Spacecraft / satellite branch ----
+    requirement def SpacecraftRequirement :> ExtRequirement;
+    requirement def SatelliteRequirement  :> SpacecraftRequirement;
+    requirement def CubeSatRequirement    :> SatelliteRequirement;
 
-    // Abstract base for segment-level needs 
-    abstract requirement def SegmentRequirement specialize ExtRequirement; 
+    // ---- Segment branch ----
+    abstract requirement def SegmentRequirement :> ExtRequirement;
+    requirement def GroundSegmentRequirement    :> SegmentRequirement;
+    requirement def SpaceSegmentRequirement     :> SegmentRequirement;
 
-    requirement def SpaceSegmentRequirement specialize SegmentRequirement; 
-    
-    requirement def GroundSegmentRequirement specialize SegmentRequirement; 
-
-    requirement def SpacecraftRequirement specialize ExtRequirement; 
-
-    requirement def SatelliteRequirement specialize SpacecraftRequirement; 
-
-    requirement def CubeSatRequirement specialize SatelliteRequirement; 
-
-    /* * 6.1.8 - 6.1.10 Low-Level Design Requirements [cite: 68]
-     */
-
-    requirement def SubsystemRequirement specialize ExtRequirement; 
-
-    requirement def ComponentRequirement specialize ExtRequirement; 
-
-    requirement def DeployerRequirement specialize ExtRequirement; 
-
-    // Organizational element for requirement grouping 
-    requirement def Group specialize ExtRequirement; 
-}
 
     //* 
     6 CSRM Profile (Normative)  5
