@@ -1,5 +1,69 @@
 package Cubesat_Reference_Model {
     doc /* This is the interpreted information from the Cubesat Reference Model by the Object Management Group. https://www.omg.org/spec/CSRM/1.1/PDF */
+    private import ScalarValues::*;
+    private import ISQ::*;
+
+package CSRM_Concerns_and_Requirements_Profile {
+    private import ScalarValues::*;
+    
+    /* * Base Requirement Stereotypes 
+     * All requirements in this profile inherit from ExtRequirement [cite: 198, 241, 759]
+     */
+    
+    // Enumerations used in ExtRequirement
+    enum def RiskKind {
+        High;
+        Medium;
+        Low;
+    }
+
+    requirement def ExtRequirement {
+        attribute source: String; 
+        attribute risk: RiskKind = RiskKind::Medium; 
+        // Note: validatedBy is often a derived relationship in MBSE tools 
+    }
+
+    /* * 6.1.1 - 6.1.5 Top-Level Mission Drivers [cite: 68]
+     */
+    
+    requirement def StakeholderConcern specialize ExtRequirement; 
+    
+    requirement def MissionNeed specialize ExtRequirement; 
+    
+    requirement def MissionObjective specialize ExtRequirement; 
+    
+    requirement def MissionConstraint specialize ExtRequirement; 
+    
+    requirement def MissionRequirement specialize ExtRequirement; 
+
+    /* * 6.1.7 - 6.1.15 Segment and Structural Requirements [cite: 68]
+     */
+
+    // Abstract base for segment-level needs 
+    abstract requirement def SegmentRequirement specialize ExtRequirement; 
+
+    requirement def SpaceSegmentRequirement specialize SegmentRequirement; 
+    
+    requirement def GroundSegmentRequirement specialize SegmentRequirement; 
+
+    requirement def SpacecraftRequirement specialize ExtRequirement; 
+
+    requirement def SatelliteRequirement specialize SpacecraftRequirement; 
+
+    requirement def CubeSatRequirement specialize SatelliteRequirement; 
+
+    /* * 6.1.8 - 6.1.10 Low-Level Design Requirements [cite: 68]
+     */
+
+    requirement def SubsystemRequirement specialize ExtRequirement; 
+
+    requirement def ComponentRequirement specialize ExtRequirement; 
+
+    requirement def DeployerRequirement specialize ExtRequirement; 
+
+    // Organizational element for requirement grouping 
+    requirement def Group specialize ExtRequirement; 
+}
 
     //* 
     6 CSRM Profile (Normative)  5
