@@ -1,10 +1,18 @@
-package Cubesat_Display_Model {
+package Cubesat_Logical_Architecture {
+    doc /* These are the definitions of the logical/functional systems of the satellite and the analyses therein. */
     //* Imports */
     private import ScalarValues::*;
     private import ISQ::*;
 
     //* Part Definitions */
+    part def Satellite_and_Mission_System {
+        doc /* This combines the Satellite System, Ground System, and Mission Profile to represent all elements involved in the operation of the mission. */
+    }
+    part def Mission_Profile {
+        doc /* This is the information pertaining to the operation of the satellite. Includes the orbit and pointing info. */
+    }
     part def Logical_Satellite_System {
+        doc /* This is a combination Logical and Functional Architecture for a generic imaging cubesat. */
         part def Mission_Information {
             attribute Downlink_Period: TimeValue;
             attribute Downlinks_per_Day: ScalarValue;
@@ -49,14 +57,8 @@ package Cubesat_Display_Model {
             
         }
     }
+}
 
-    //* Part Usages */
-    part logical_flatsat: Logical_Satellite_System {
-        part flatsat_payload: Payload_Subsystem;
-        part flatsat_eps: EPS_Subsystem{
-            part flatsat_battery: Power_Storage{
-                redefines mass = 10; 
-            }
-        }
-    }
+package Cubesat_Physical_Architecture {
+    doc /* These are the definitions and usages describing the physical systems of the satellite. It also describes the testing procedures. */
 }
