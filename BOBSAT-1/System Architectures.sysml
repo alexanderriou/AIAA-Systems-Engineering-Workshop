@@ -7,23 +7,31 @@ package Cubesat_Logical_Architecture {
     //* Part Definitions */
     part def Satellite_and_Mission_System {
         doc /* This combines the Satellite System, Ground System, and Mission Profile to represent all elements involved in the operation of the mission. */
+        part Mission: Mission_Profile;
+        part Satellite: Logical_Satellite_System;
+        part Ground: Logical_Ground_System;    
     }
     part def Mission_Profile {
         doc /* This is the information pertaining to the operation of the satellite. Includes the orbit and pointing info. */
+        attribute Downlink_Period: ScalarValue;
+        attribute Downlinks_per_Day: ScalarValue;
+        attribute Vertical_Swath_Width: ScalarValue;
     }
     part def Logical_Satellite_System {
         doc /* This is a combination Logical and Functional Architecture for a generic imaging cubesat. */
-        part def Mission_Information {
-            attribute Downlink_Period: TimeValue;
-            attribute Downlinks_per_Day: ScalarValue;
-        }
+        part Payload: Payload_Subsystem;
+        part ADCS: ADCS_Subsystem;
+        part EPS: EPS_Subsystem;
+        part SENV: SENV_Subsystem;
+        part COMMS: COMMS_Subsystem;
+        part CNDH: CNDH_Subsystem;
+        part FSW: FSW_Subsystem;
+        
         part def Payload_Subsystem {
-            attribute Horizontal_Swath_Width: LengthValue;
-            attribute Vertical_Swath_Width: LengthValue;
-            attribute GSD: LengthValue;
-            attribute Bit_Depth: BinaryDigitRateValue;
+            attribute Horizontal_Swath_Width: ScalarValue;
+            attribute GSD: ScalarValue;
+            attribute Bit_Depth: ScalarValue;
             attribute Number_of_Bands: ScalarValue;
-            attribute Compression_Factor: ScalarValue;
             
         }
         part def ADCS_Subsystem {
@@ -39,10 +47,10 @@ package Cubesat_Logical_Architecture {
             
         }
         part def COMMS_Subsystem {
-            attribute Downlink_Rate: BinaryDigitRateValue;
+            attribute Downlink_Rate: ScalarValue;
         }
         part def CNDH_Subsystem {
-            
+            attribute Compression_Factor: ScalarValue;
         }
         part def FSW_Subsystem {
             
