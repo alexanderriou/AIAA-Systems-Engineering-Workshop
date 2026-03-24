@@ -245,7 +245,7 @@ optional = false
 python-versions = "^3.8"
 groups = ["main"]
 files = []
-develop = false
+develop = true
 
 [package.dependencies]
 antlr4-python3-runtime = "4.10"
@@ -335,4 +335,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<4.0"
-content-hash = "06153363a8093653a3e58a7b5c229f9048e291291188fcc85600e39e76f5654a"
+content-hash = "66361122b6e2c3384a52fdb7204ae97874fbe362360f8f55be22557b3e35e36a"

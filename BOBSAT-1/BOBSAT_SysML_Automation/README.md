@@ -1,0 +1,2 @@
+# BOBSAT_SysML_Automation
+This package is the utilities useful for programmatically working with SysML model files in python. It's heavily abstracted so that you don't have to dig into the structure too much! It's currently under development. 

@@ -7,15 +7,13 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "pysysml2 @ file:///home/ariou/Desktop/Directory/Extracurriculars/Code/AIAA-Systems-Engineering-Workshop/BOBSAT-1/PySysML2"
-]
 
 [tool.poetry]
 packages = [{include = "bobsat_sysml_automation", from = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.12,<4.0"
+pysysml2 = { path = "../PySysML2", develop = true }
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

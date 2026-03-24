@@ -15,4 +15,13 @@ There are some parts of the automation that we have to set up from scratch. Even
     [tool.poetry.dependencies]
     python = ">=3.12,<4.0"
     Then run the setup.poetry.sh script again.
-3. 
+3. Run the install_dependencies.sh script
+4. Validate that the PySysML2 package is correctly installed by going to the PySysML2 directory and running this script:
+    poetry run pysysml2 export examples/models/model_test_1.sysml2 --output-dir out/ --format json,txt,csv,xlsx
+    This should generate a system model export in the out/ folder. The excel sheet should have like 50 different lines with all types of data in there.
+5. Make sure the filepath to the PySysML2 is ../PySysML2 and not the global filepath (doxxing u)
+
+## Basic Parsing
+To validate that the top-level package is working, do the following:
+1. poetry run python -m src.bobsat_sysml_automation.extract_model_hierarchy
+
