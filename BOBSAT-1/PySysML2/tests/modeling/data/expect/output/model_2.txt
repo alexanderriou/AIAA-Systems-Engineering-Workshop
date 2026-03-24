@@ -1,0 +1,79 @@
+[root]: 
+├── [0]: ISQ@0_None
+├── [1]: ISQSpaceTime@1_None
+├── [2]: ScalarValues@2_None
+└── [3]: TTRPGeToken@3_None
+    ├── [4]: overview@4_3
+    ├── [5]: PySysML2_GENERATED_NAME_5_3@5_3
+    ├── [6]: PySysML2_GENERATED_NAME_6_3@6_3
+    ├── [7]: RevComment_1@7_3
+    ├── [8]: Structure@8_3
+    │   ├── [9]: overview@9_8
+    │   ├── [10]: WiFi Component@10_8
+    │   ├── [11]: Bluetooth Component@11_8
+    │   ├── [12]: Integrated Wireless Chip@12_8
+    │   │   ├── [13]: name@13_12
+    │   │   ├── [14]: wifiComponent@14_12
+    │   │   │   ├── [15]: WiFi Frequency@15_14
+    │   │   │   └── [16]: WiFi Protocol@16_14
+    │   │   └── [17]: btComponent@17_12
+    │   │       └── [18]: Bluetooth Protocol@18_17
+    │   ├── [19]: Controller Board@19_8
+    │   │   ├── [20]: wChip@20_19
+    │   │   ├── [21]: RAM_kb@21_19
+    │   │   ├── [22]: Primary Interface@22_19
+    │   │   ├── [23]: Secondary Interface@23_19
+    │   │   └── [24]: Bluetooth Capable@24_19
+    │   ├── [25]: LCD Display@25_8
+    │   ├── [26]: Battery@26_8
+    │   │   ├── [27]: isRechargeable@27_26
+    │   │   ├── [28]: Battery Type@28_26
+    │   │   ├── [29]: name@29_26
+    │   │   ├── [30]: avg_voltage_V@30_26
+    │   │   └── [31]: avg_capacity_mAh@31_26
+    │   ├── [32]: Raspberry Pi Pico Wireless@32_8
+    │   │   ├── [33]: info@33_32
+    │   │   ├── [34]: wChip_PiPicoW@34_32
+    │   │   │   ├── [35]: name@35_34
+    │   │   │   ├── [36]: wifiComponet_PiPicoW@36_34
+    │   │   │   │   ├── [37]: WiFi Frequency@37_36
+    │   │   │   │   └── [38]: WiFi Protocol@38_36
+    │   │   │   └── [39]: btComponet_PiPicoW@39_34
+    │   │   │       └── [40]: Bluetooth Protocol@40_39
+    │   │   ├── [41]: RAM_kb@41_32
+    │   │   ├── [42]: Bluetooth Capable@42_32
+    │   │   ├── [43]: Primary Interface@43_32
+    │   │   └── [44]: Secondary Interface@44_32
+    │   ├── [45]: AA Battery Duracell Quantum@45_8
+    │   │   ├── [46]: isRechargeable@46_45
+    │   │   ├── [47]: Battery Type@47_45
+    │   │   ├── [48]: name@48_45
+    │   │   ├── [49]: avg_voltage_V@49_45
+    │   │   └── [50]: avg_capacity_mAh@50_45
+    │   ├── [51]: Bicool Round LCD IPS Display GC9A01@51_8
+    │   ├── [52]: TTRPG eToken System@52_8
+    │   │   ├── [53]: controller board@53_52
+    │   │   ├── [54]: lcd display@54_52
+    │   │   └── [55]: battery@55_52
+    │   └── [56]: TTRPG eToken System Prototype@56_8
+    │       ├── [57]: controller board@57_56
+    │       ├── [58]: lcd display@58_56
+    │       └── [59]: battery@59_56
+    └── [60]: Behavior@60_3
+        ├── [61]: User@61_60
+        ├── [62]: Change displayed image on eToken@62_60
+        │   ├── [63]: user@63_62
+        │   └── [64]: PySysML2_GENERATED_NAME_64_62@64_62
+        │       └── [65]: PySysML2_GENERATED_NAME_65_64@65_64
+        ├── [66]: Remove existing image form eToken@66_60
+        │   ├── [67]: PySysML2_GENERATED_NAME_67_66@67_66
+        │   │   └── [68]: PySysML2_GENERATED_NAME_68_67@68_67
+        │   └── [69]: user@69_66
+        ├── [70]: Load new image to eToken@70_60
+        │   ├── [71]: PySysML2_GENERATED_NAME_71_70@71_70
+        │   │   └── [72]: PySysML2_GENERATED_NAME_72_71@72_71
+        │   └── [73]: user@73_70
+        └── [74]: Use eToken as game piece@74_60
+            ├── [75]: PySysML2_GENERATED_NAME_75_74@75_74
+            │   └── [76]: PySysML2_GENERATED_NAME_76_75@76_75
+            └── [77]: user@77_74

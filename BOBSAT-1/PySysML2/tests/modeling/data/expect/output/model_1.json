@@ -1,0 +1,1385 @@
+{
+  "children": [
+    {
+      "archtype": "element",
+      "children": [
+        {
+          "archtype": "element",
+          "constants": [
+            null
+          ],
+          "context_type": "Doc_unnamedContext",
+          "element_text": " This is the documentation for the Model package",
+          "fully_qualified_name": "Model::PySysML2_GENERATED_NAME_1_0",
+          "fully_qualified_name_tagged": "Model@0_None::PySysML2_GENERATED_NAME_1_0@1_0",
+          "idx": 1,
+          "idx_parent": 0,
+          "idx_related_element": null,
+          "keywords": [
+            "doc"
+          ],
+          "multiplicity": null,
+          "name": "PySysML2_GENERATED_NAME_1_0@1_0",
+          "related_element_name": null,
+          "sysml2_layer": "Root Syntactic Element",
+          "sysml2_type": "doc",
+          "tree_level": 1,
+          "uuid": "0cf088b8-2941-4b4a-879e-1004bd5971d7",
+          "uuid_parent": "6658a4e5-14b4-4ff2-bbc4-bb4cfb33810a",
+          "value_types": null
+        },
+        {
+          "archtype": "element",
+          "constants": [
+            null
+          ],
+          "context_type": "Comment_unnamedContext",
+          "element_text": " This is a comment ",
+          "fully_qualified_name": "Model::PySysML2_GENERATED_NAME_2_0",
+          "fully_qualified_name_tagged": "Model@0_None::PySysML2_GENERATED_NAME_2_0@2_0",
+          "idx": 2,
+          "idx_parent": 0,
+          "idx_related_element": null,
+          "keywords": [
+            "comment"
+          ],
+          "multiplicity": null,
+          "name": "PySysML2_GENERATED_NAME_2_0@2_0",
+          "related_element_name": null,
+          "sysml2_layer": "Root Syntactic Element",
+          "sysml2_type": "comment",
+          "tree_level": 1,
+          "uuid": "2a63e608-bcf7-4d8f-a900-e10cf1efc439",
+          "uuid_parent": "6658a4e5-14b4-4ff2-bbc4-bb4cfb33810a",
+          "value_types": null
+        },
+        {
+          "archtype": "element",
+          "constants": [
+            null
+          ],
+          "context_type": "Comment_namedContext",
+          "element_text": " This is a named comment ",
+          "fully_qualified_name": "Model::Comment_1",
+          "fully_qualified_name_tagged": "Model@0_None::Comment_1@3_0",
+          "idx": 3,
+          "idx_parent": 0,
+          "idx_related_element": null,
+          "keywords": [
+            "comment"
+          ],
+          "multiplicity": null,
+          "name": "Comment_1@3_0",
+          "related_element_name": null,
+          "sysml2_layer": "Root Syntactic Element",
+          "sysml2_type": "comment",
+          "tree_level": 1,
+          "uuid": "dfe8b05c-32a5-4729-ae71-3f76f14b5cb8",
+          "uuid_parent": "6658a4e5-14b4-4ff2-bbc4-bb4cfb33810a",
+          "value_types": null
+        },
+        {
+          "archtype": "element",
+          "children": [
+            {
+              "archtype": "element",
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Structure::WiFi Card",
+              "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::WiFi Card@5_4",
+              "idx": 5,
+              "idx_parent": 4,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "WiFi Card@5_4",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "800238e7-8841-4c7d-81c4-110930030c35",
+              "uuid_parent": "70226aff-68eb-4813-b0f8-711a7033b5a4",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Structure::Bluetooth Card",
+              "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Bluetooth Card@6_4",
+              "idx": 6,
+              "idx_parent": 4,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "Bluetooth Card@6_4",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "923b1dcd-c261-4bfb-b0f7-2bcbe8143411",
+              "uuid_parent": "70226aff-68eb-4813-b0f8-711a7033b5a4",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Structure::Icon",
+              "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Icon@7_4",
+              "idx": 7,
+              "idx_parent": 4,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "Icon@7_4",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "b49519fc-45f5-41e4-b8f2-b54e87ed1381",
+              "uuid_parent": "70226aff-68eb-4813-b0f8-711a7033b5a4",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::Controller Board::wifi card",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Controller Board@8_4::wifi card@9_8",
+                  "idx": 9,
+                  "idx_parent": 8,
+                  "idx_related_element": 5,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": "[1..2]",
+                  "name": "wifi card@9_8",
+                  "related_element_name": "WiFi Card@5_4",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "1e7c138f-921b-4de6-97c2-e98cc1098902",
+                  "uuid_parent": "5549b2db-4af0-4d83-8b77-b9c19c54a323",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::Controller Board::bluetooth card",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Controller Board@8_4::bluetooth card@10_8",
+                  "idx": 10,
+                  "idx_parent": 8,
+                  "idx_related_element": 6,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "bluetooth card@10_8",
+                  "related_element_name": "Bluetooth Card@6_4",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "b3193c25-bf69-454d-b105-a0660218d370",
+                  "uuid_parent": "5549b2db-4af0-4d83-8b77-b9c19c54a323",
+                  "value_types": null
+                },
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::Controller Board::RAM",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Controller Board@8_4::RAM@11_8",
+                  "idx": 11,
+                  "idx_parent": 8,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "RAM@11_8",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "da745076-a5ca-4d78-aee1-6d0f4466a732",
+                  "uuid_parent": "5549b2db-4af0-4d83-8b77-b9c19c54a323",
+                  "value_types": "Integer"
+                },
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::Controller Board::Primary Interface",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Controller Board@8_4::Primary Interface@12_8",
+                  "idx": 12,
+                  "idx_parent": 8,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "Primary Interface@12_8",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "1b09026c-8d9f-4470-84ac-c0ce4de5ccbc",
+                  "uuid_parent": "5549b2db-4af0-4d83-8b77-b9c19c54a323",
+                  "value_types": "String"
+                },
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::Controller Board::Secondary Interface",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Controller Board@8_4::Secondary Interface@13_8",
+                  "idx": 13,
+                  "idx_parent": 8,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "Secondary Interface@13_8",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "ceed922d-6878-4f54-bf84-3385a388d9e6",
+                  "uuid_parent": "5549b2db-4af0-4d83-8b77-b9c19c54a323",
+                  "value_types": "String"
+                },
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::Controller Board::WiFi Frequency",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Controller Board@8_4::WiFi Frequency@14_8",
+                  "idx": 14,
+                  "idx_parent": 8,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "WiFi Frequency@14_8",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "afec1179-1c40-4a3a-a8e2-695ceefe021b",
+                  "uuid_parent": "5549b2db-4af0-4d83-8b77-b9c19c54a323",
+                  "value_types": "Real"
+                },
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::Controller Board::WiFi Protocol",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Controller Board@8_4::WiFi Protocol@15_8",
+                  "idx": 15,
+                  "idx_parent": 8,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "WiFi Protocol@15_8",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "d844ee9e-1820-4a82-a846-4c86b534e86b",
+                  "uuid_parent": "5549b2db-4af0-4d83-8b77-b9c19c54a323",
+                  "value_types": "String"
+                },
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::Controller Board::Bluetooth Capable",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Controller Board@8_4::Bluetooth Capable@16_8",
+                  "idx": 16,
+                  "idx_parent": 8,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "Bluetooth Capable@16_8",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "1669cfd3-2fa4-4f02-8122-09f1d352ec1b",
+                  "uuid_parent": "5549b2db-4af0-4d83-8b77-b9c19c54a323",
+                  "value_types": "Boolean"
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Structure::Controller Board",
+              "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Controller Board@8_4",
+              "idx": 8,
+              "idx_parent": 4,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "Controller Board@8_4",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "5549b2db-4af0-4d83-8b77-b9c19c54a323",
+              "uuid_parent": "70226aff-68eb-4813-b0f8-711a7033b5a4",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Structure::LCD Display",
+              "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::LCD Display@17_4",
+              "idx": 17,
+              "idx_parent": 4,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "LCD Display@17_4",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "12f89bf7-3a5e-49f9-a102-dfcd3d9fd2bd",
+              "uuid_parent": "70226aff-68eb-4813-b0f8-711a7033b5a4",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Structure::Battery",
+              "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Battery@18_4",
+              "idx": 18,
+              "idx_parent": 4,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "Battery@18_4",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "b0471210-4631-479f-9cc2-c3365464d58e",
+              "uuid_parent": "70226aff-68eb-4813-b0f8-711a7033b5a4",
+              "value_types": null
+            },
+            {
+              "archtype": "relationship",
+              "children": [
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "264"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::Raspberry Pi Pico Wireless::RAM",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Raspberry Pi Pico Wireless@19_4::RAM@20_19",
+                  "idx": 20,
+                  "idx_parent": 19,
+                  "idx_related_element": 11,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "RAM@20_19",
+                  "related_element_name": "RAM@11_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "b8ed26cd-378e-409c-98cd-6a2206859817",
+                  "uuid_parent": "db18422e-0f76-47dc-9fe0-de3ba2e0822c",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "false"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::Raspberry Pi Pico Wireless::Bluetooth Capable",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Raspberry Pi Pico Wireless@19_4::Bluetooth Capable@21_19",
+                  "idx": 21,
+                  "idx_parent": 19,
+                  "idx_related_element": 16,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "Bluetooth Capable@21_19",
+                  "related_element_name": "Bluetooth Capable@16_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "aa197874-d274-434d-9cdd-24c2ee86f4a0",
+                  "uuid_parent": "db18422e-0f76-47dc-9fe0-de3ba2e0822c",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "USB 1.1"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::Raspberry Pi Pico Wireless::Primary Interface",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Raspberry Pi Pico Wireless@19_4::Primary Interface@22_19",
+                  "idx": 22,
+                  "idx_parent": 19,
+                  "idx_related_element": 12,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "Primary Interface@22_19",
+                  "related_element_name": "Primary Interface@12_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "e3630c7e-1599-44d9-85cd-d3d950ddd570",
+                  "uuid_parent": "db18422e-0f76-47dc-9fe0-de3ba2e0822c",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "SPI"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::Raspberry Pi Pico Wireless::Secondary Interface",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Raspberry Pi Pico Wireless@19_4::Secondary Interface@23_19",
+                  "idx": 23,
+                  "idx_parent": 19,
+                  "idx_related_element": 13,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "Secondary Interface@23_19",
+                  "related_element_name": "Secondary Interface@13_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "a42aa5a4-0a2e-4106-88ad-8c14394401a8",
+                  "uuid_parent": "db18422e-0f76-47dc-9fe0-de3ba2e0822c",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "Wireless (802.11n)"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::Raspberry Pi Pico Wireless::WiFi Protocol",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Raspberry Pi Pico Wireless@19_4::WiFi Protocol@24_19",
+                  "idx": 24,
+                  "idx_parent": 19,
+                  "idx_related_element": 15,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "WiFi Protocol@24_19",
+                  "related_element_name": "WiFi Protocol@15_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "abe20cf9-aba4-4eee-b414-cd90b9951731",
+                  "uuid_parent": "db18422e-0f76-47dc-9fe0-de3ba2e0822c",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "2.4"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::Raspberry Pi Pico Wireless::WiFi Frequency",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Raspberry Pi Pico Wireless@19_4::WiFi Frequency@25_19",
+                  "idx": 25,
+                  "idx_parent": 19,
+                  "idx_related_element": 14,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "WiFi Frequency@25_19",
+                  "related_element_name": "WiFi Frequency@14_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "41273bb3-06c3-4a47-9cf8-2c4f29f0c177",
+                  "uuid_parent": "db18422e-0f76-47dc-9fe0-de3ba2e0822c",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Part_def_specializesContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Structure::Raspberry Pi Pico Wireless",
+              "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Raspberry Pi Pico Wireless@19_4",
+              "idx": 19,
+              "idx_parent": 4,
+              "idx_related_element": 8,
+              "keywords": [
+                "def",
+                "part",
+                "specializes"
+              ],
+              "multiplicity": null,
+              "name": "Raspberry Pi Pico Wireless@19_4",
+              "related_element_name": "Controller Board@8_4",
+              "sysml2_layer": "Root Syntactic Element",
+              "sysml2_type": "specializes",
+              "tree_level": 2,
+              "uuid": "db18422e-0f76-47dc-9fe0-de3ba2e0822c",
+              "uuid_parent": "70226aff-68eb-4813-b0f8-711a7033b5a4",
+              "value_types": null
+            },
+            {
+              "archtype": "relationship",
+              "constants": [
+                null
+              ],
+              "context_type": "Part_def_specializesContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Structure::Bicool Round LCD IPS Display GC9A01",
+              "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::Bicool Round LCD IPS Display GC9A01@26_4",
+              "idx": 26,
+              "idx_parent": 4,
+              "idx_related_element": 17,
+              "keywords": [
+                "def",
+                "part",
+                "specializes"
+              ],
+              "multiplicity": null,
+              "name": "Bicool Round LCD IPS Display GC9A01@26_4",
+              "related_element_name": "LCD Display@17_4",
+              "sysml2_layer": "Root Syntactic Element",
+              "sysml2_type": "specializes",
+              "tree_level": 2,
+              "uuid": "8eaed941-9399-4daa-8e3b-4adf6dfa119d",
+              "uuid_parent": "70226aff-68eb-4813-b0f8-711a7033b5a4",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::TTRPG eToken System::controller board",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::TTRPG eToken System@27_4::controller board@28_27",
+                  "idx": 28,
+                  "idx_parent": 27,
+                  "idx_related_element": 8,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "controller board@28_27",
+                  "related_element_name": "Controller Board@8_4",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "ea8f8d8f-bb50-42d8-97fb-375c4a8471b8",
+                  "uuid_parent": "66cd8cd9-2af3-447a-bf83-0570056a9742",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::TTRPG eToken System::lcd display",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::TTRPG eToken System@27_4::lcd display@29_27",
+                  "idx": 29,
+                  "idx_parent": 27,
+                  "idx_related_element": 17,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "lcd display@29_27",
+                  "related_element_name": "LCD Display@17_4",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "ff4f30cd-a6d5-4c4d-8be4-e5a50e830448",
+                  "uuid_parent": "66cd8cd9-2af3-447a-bf83-0570056a9742",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::TTRPG eToken System::battery",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::TTRPG eToken System@27_4::battery@30_27",
+                  "idx": 30,
+                  "idx_parent": 27,
+                  "idx_related_element": 18,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "battery@30_27",
+                  "related_element_name": "Battery@18_4",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "81dbfa7a-2af5-4749-9b8a-ea6e67eeecc0",
+                  "uuid_parent": "66cd8cd9-2af3-447a-bf83-0570056a9742",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Structure::TTRPG eToken System",
+              "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::TTRPG eToken System@27_4",
+              "idx": 27,
+              "idx_parent": 4,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "TTRPG eToken System@27_4",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "66cd8cd9-2af3-447a-bf83-0570056a9742",
+              "uuid_parent": "70226aff-68eb-4813-b0f8-711a7033b5a4",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::TTRPG eToken System Prototype::controller board",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::TTRPG eToken System Prototype@31_4::controller board@32_31",
+                  "idx": 32,
+                  "idx_parent": 31,
+                  "idx_related_element": 19,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "controller board@32_31",
+                  "related_element_name": "Raspberry Pi Pico Wireless@19_4",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "11589610-48ee-4417-bb1f-00201200d382",
+                  "uuid_parent": "a9da0839-369c-4730-8c98-e0334bf2becf",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Structure::TTRPG eToken System Prototype::lcd display",
+                  "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::TTRPG eToken System Prototype@31_4::lcd display@33_31",
+                  "idx": 33,
+                  "idx_parent": 31,
+                  "idx_related_element": 26,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "lcd display@33_31",
+                  "related_element_name": "Bicool Round LCD IPS Display GC9A01@26_4",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "13b17dcd-3453-4540-9721-09620455ce04",
+                  "uuid_parent": "a9da0839-369c-4730-8c98-e0334bf2becf",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Structure::TTRPG eToken System Prototype",
+              "fully_qualified_name_tagged": "Model@0_None::Structure@4_0::TTRPG eToken System Prototype@31_4",
+              "idx": 31,
+              "idx_parent": 4,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "TTRPG eToken System Prototype@31_4",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "a9da0839-369c-4730-8c98-e0334bf2becf",
+              "uuid_parent": "70226aff-68eb-4813-b0f8-711a7033b5a4",
+              "value_types": null
+            }
+          ],
+          "constants": [
+            null
+          ],
+          "context_type": "Sysml2_packageContext",
+          "element_text": null,
+          "fully_qualified_name": "Model::Structure",
+          "fully_qualified_name_tagged": "Model@0_None::Structure@4_0",
+          "idx": 4,
+          "idx_parent": 0,
+          "idx_related_element": null,
+          "keywords": [
+            "package"
+          ],
+          "multiplicity": null,
+          "name": "Structure@4_0",
+          "related_element_name": null,
+          "sysml2_layer": "Kernel Element",
+          "sysml2_type": "package",
+          "tree_level": 1,
+          "uuid": "70226aff-68eb-4813-b0f8-711a7033b5a4",
+          "uuid_parent": "6658a4e5-14b4-4ff2-bbc4-bb4cfb33810a",
+          "value_types": null
+        },
+        {
+          "archtype": "element",
+          "children": [
+            {
+              "archtype": "element",
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Behavior::User",
+              "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::User@35_34",
+              "idx": 35,
+              "idx_parent": 34,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "User@35_34",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "1cca9526-190e-4fff-abe9-447bab0eae0e",
+              "uuid_parent": "c1097bd6-b750-40db-898c-4a08505de6ba",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_actor_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Behavior::Change displayed image on eToken::user",
+                  "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Change displayed image on eToken@36_34::user@37_36",
+                  "idx": 37,
+                  "idx_parent": 36,
+                  "idx_related_element": 35,
+                  "keywords": [
+                    "actor",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "user@37_36",
+                  "related_element_name": "User@35_34",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "3270aa41-02f7-41df-bc07-de1f323889df",
+                  "uuid_parent": "a34619a8-ae26-4aa5-bdaf-d1e495ca2eaf",
+                  "value_types": null
+                },
+                {
+                  "archtype": "element",
+                  "children": [
+                    {
+                      "archtype": "element",
+                      "constants": [
+                        null
+                      ],
+                      "context_type": "Doc_unnamedContext",
+                      "element_text": "The user changes the displayed image on the eToken to one that is currently stored in storage",
+                      "fully_qualified_name": "Model::Behavior::Change displayed image on eToken::PySysML2_GENERATED_NAME_38_36::PySysML2_GENERATED_NAME_39_38",
+                      "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Change displayed image on eToken@36_34::PySysML2_GENERATED_NAME_38_36@38_36::PySysML2_GENERATED_NAME_39_38@39_38",
+                      "idx": 39,
+                      "idx_parent": 38,
+                      "idx_related_element": null,
+                      "keywords": [
+                        "doc"
+                      ],
+                      "multiplicity": null,
+                      "name": "PySysML2_GENERATED_NAME_39_38@39_38",
+                      "related_element_name": null,
+                      "sysml2_layer": "Root Syntactic Element",
+                      "sysml2_type": "doc",
+                      "tree_level": 4,
+                      "uuid": "2ccd8fdc-d06b-4b49-a87b-543038854d10",
+                      "uuid_parent": "485fa00c-df40-44b0-822a-dc1398ea5f8a",
+                      "value_types": null
+                    }
+                  ],
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Objective_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Behavior::Change displayed image on eToken::PySysML2_GENERATED_NAME_38_36",
+                  "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Change displayed image on eToken@36_34::PySysML2_GENERATED_NAME_38_36@38_36",
+                  "idx": 38,
+                  "idx_parent": 36,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "def",
+                    "objective"
+                  ],
+                  "multiplicity": null,
+                  "name": "PySysML2_GENERATED_NAME_38_36@38_36",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "objective",
+                  "tree_level": 3,
+                  "uuid": "485fa00c-df40-44b0-822a-dc1398ea5f8a",
+                  "uuid_parent": "a34619a8-ae26-4aa5-bdaf-d1e495ca2eaf",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Use_case_defContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Behavior::Change displayed image on eToken",
+              "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Change displayed image on eToken@36_34",
+              "idx": 36,
+              "idx_parent": 34,
+              "idx_related_element": null,
+              "keywords": [
+                "case",
+                "def",
+                "use"
+              ],
+              "multiplicity": null,
+              "name": "Change displayed image on eToken@36_34",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "usecase",
+              "tree_level": 2,
+              "uuid": "a34619a8-ae26-4aa5-bdaf-d1e495ca2eaf",
+              "uuid_parent": "c1097bd6-b750-40db-898c-4a08505de6ba",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "element",
+                  "children": [
+                    {
+                      "archtype": "element",
+                      "constants": [
+                        null
+                      ],
+                      "context_type": "Doc_unnamedContext",
+                      "element_text": "The user deletes an image from the eToken currently stored in storage",
+                      "fully_qualified_name": "Model::Behavior::Remove existing image form eToken::PySysML2_GENERATED_NAME_41_40::PySysML2_GENERATED_NAME_42_41",
+                      "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Remove existing image form eToken@40_34::PySysML2_GENERATED_NAME_41_40@41_40::PySysML2_GENERATED_NAME_42_41@42_41",
+                      "idx": 42,
+                      "idx_parent": 41,
+                      "idx_related_element": null,
+                      "keywords": [
+                        "doc"
+                      ],
+                      "multiplicity": null,
+                      "name": "PySysML2_GENERATED_NAME_42_41@42_41",
+                      "related_element_name": null,
+                      "sysml2_layer": "Root Syntactic Element",
+                      "sysml2_type": "doc",
+                      "tree_level": 4,
+                      "uuid": "81ffbed5-cc33-4f62-9e87-4c2a8feebdcc",
+                      "uuid_parent": "521e6a70-0a2d-4d95-a902-5bdf702f5b98",
+                      "value_types": null
+                    }
+                  ],
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Objective_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Behavior::Remove existing image form eToken::PySysML2_GENERATED_NAME_41_40",
+                  "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Remove existing image form eToken@40_34::PySysML2_GENERATED_NAME_41_40@41_40",
+                  "idx": 41,
+                  "idx_parent": 40,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "def",
+                    "objective"
+                  ],
+                  "multiplicity": null,
+                  "name": "PySysML2_GENERATED_NAME_41_40@41_40",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "objective",
+                  "tree_level": 3,
+                  "uuid": "521e6a70-0a2d-4d95-a902-5bdf702f5b98",
+                  "uuid_parent": "f2be1403-a0e6-4cb5-82e4-f4346f603632",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_actor_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Behavior::Remove existing image form eToken::user",
+                  "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Remove existing image form eToken@40_34::user@43_40",
+                  "idx": 43,
+                  "idx_parent": 40,
+                  "idx_related_element": 35,
+                  "keywords": [
+                    "actor",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "user@43_40",
+                  "related_element_name": "User@35_34",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "c7c01dd9-df90-4c03-add0-32a379834140",
+                  "uuid_parent": "f2be1403-a0e6-4cb5-82e4-f4346f603632",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Use_case_defContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Behavior::Remove existing image form eToken",
+              "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Remove existing image form eToken@40_34",
+              "idx": 40,
+              "idx_parent": 34,
+              "idx_related_element": null,
+              "keywords": [
+                "case",
+                "def",
+                "use"
+              ],
+              "multiplicity": null,
+              "name": "Remove existing image form eToken@40_34",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "usecase",
+              "tree_level": 2,
+              "uuid": "f2be1403-a0e6-4cb5-82e4-f4346f603632",
+              "uuid_parent": "c1097bd6-b750-40db-898c-4a08505de6ba",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "element",
+                  "children": [
+                    {
+                      "archtype": "element",
+                      "constants": [
+                        null
+                      ],
+                      "context_type": "Doc_unnamedContext",
+                      "element_text": "The user uploads a new image to the eToken's storage",
+                      "fully_qualified_name": "Model::Behavior::Load new image to eToken::PySysML2_GENERATED_NAME_45_44::PySysML2_GENERATED_NAME_46_45",
+                      "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Load new image to eToken@44_34::PySysML2_GENERATED_NAME_45_44@45_44::PySysML2_GENERATED_NAME_46_45@46_45",
+                      "idx": 46,
+                      "idx_parent": 45,
+                      "idx_related_element": null,
+                      "keywords": [
+                        "doc"
+                      ],
+                      "multiplicity": null,
+                      "name": "PySysML2_GENERATED_NAME_46_45@46_45",
+                      "related_element_name": null,
+                      "sysml2_layer": "Root Syntactic Element",
+                      "sysml2_type": "doc",
+                      "tree_level": 4,
+                      "uuid": "4ef7ff44-7799-47b0-a7d1-31cce306e732",
+                      "uuid_parent": "502b11fb-7bcb-42a7-9d5b-24d227867cd0",
+                      "value_types": null
+                    }
+                  ],
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Objective_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Behavior::Load new image to eToken::PySysML2_GENERATED_NAME_45_44",
+                  "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Load new image to eToken@44_34::PySysML2_GENERATED_NAME_45_44@45_44",
+                  "idx": 45,
+                  "idx_parent": 44,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "def",
+                    "objective"
+                  ],
+                  "multiplicity": null,
+                  "name": "PySysML2_GENERATED_NAME_45_44@45_44",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "objective",
+                  "tree_level": 3,
+                  "uuid": "502b11fb-7bcb-42a7-9d5b-24d227867cd0",
+                  "uuid_parent": "9a77d55b-3c7c-44f1-86fb-6741c1bfd9df",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_actor_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Behavior::Load new image to eToken::user",
+                  "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Load new image to eToken@44_34::user@47_44",
+                  "idx": 47,
+                  "idx_parent": 44,
+                  "idx_related_element": 35,
+                  "keywords": [
+                    "actor",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "user@47_44",
+                  "related_element_name": "User@35_34",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "009e31ed-f0e1-4615-95a3-777306dbad10",
+                  "uuid_parent": "9a77d55b-3c7c-44f1-86fb-6741c1bfd9df",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Use_case_defContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Behavior::Load new image to eToken",
+              "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Load new image to eToken@44_34",
+              "idx": 44,
+              "idx_parent": 34,
+              "idx_related_element": null,
+              "keywords": [
+                "case",
+                "def",
+                "use"
+              ],
+              "multiplicity": null,
+              "name": "Load new image to eToken@44_34",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "usecase",
+              "tree_level": 2,
+              "uuid": "9a77d55b-3c7c-44f1-86fb-6741c1bfd9df",
+              "uuid_parent": "c1097bd6-b750-40db-898c-4a08505de6ba",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "element",
+                  "children": [
+                    {
+                      "archtype": "element",
+                      "constants": [
+                        null
+                      ],
+                      "context_type": "Doc_unnamedContext",
+                      "element_text": "The user places the eToken on the board to use as a game piece",
+                      "fully_qualified_name": "Model::Behavior::Use eToken as game piece::PySysML2_GENERATED_NAME_49_48::PySysML2_GENERATED_NAME_50_49",
+                      "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Use eToken as game piece@48_34::PySysML2_GENERATED_NAME_49_48@49_48::PySysML2_GENERATED_NAME_50_49@50_49",
+                      "idx": 50,
+                      "idx_parent": 49,
+                      "idx_related_element": null,
+                      "keywords": [
+                        "doc"
+                      ],
+                      "multiplicity": null,
+                      "name": "PySysML2_GENERATED_NAME_50_49@50_49",
+                      "related_element_name": null,
+                      "sysml2_layer": "Root Syntactic Element",
+                      "sysml2_type": "doc",
+                      "tree_level": 4,
+                      "uuid": "76fdd580-79be-48eb-9a87-304497f4ff65",
+                      "uuid_parent": "ecfdb435-6da9-4e2f-b02b-5c94ba305be8",
+                      "value_types": null
+                    }
+                  ],
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Objective_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Behavior::Use eToken as game piece::PySysML2_GENERATED_NAME_49_48",
+                  "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Use eToken as game piece@48_34::PySysML2_GENERATED_NAME_49_48@49_48",
+                  "idx": 49,
+                  "idx_parent": 48,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "def",
+                    "objective"
+                  ],
+                  "multiplicity": null,
+                  "name": "PySysML2_GENERATED_NAME_49_48@49_48",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "objective",
+                  "tree_level": 3,
+                  "uuid": "ecfdb435-6da9-4e2f-b02b-5c94ba305be8",
+                  "uuid_parent": "742782c2-711e-4648-97a9-c0ec115e6904",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_actor_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "Model::Behavior::Use eToken as game piece::user",
+                  "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Use eToken as game piece@48_34::user@51_48",
+                  "idx": 51,
+                  "idx_parent": 48,
+                  "idx_related_element": 35,
+                  "keywords": [
+                    "actor",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "user@51_48",
+                  "related_element_name": "User@35_34",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "7f5182d8-752c-4af4-9244-d29297a95c56",
+                  "uuid_parent": "742782c2-711e-4648-97a9-c0ec115e6904",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Use_case_defContext",
+              "element_text": null,
+              "fully_qualified_name": "Model::Behavior::Use eToken as game piece",
+              "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0::Use eToken as game piece@48_34",
+              "idx": 48,
+              "idx_parent": 34,
+              "idx_related_element": null,
+              "keywords": [
+                "case",
+                "def",
+                "use"
+              ],
+              "multiplicity": null,
+              "name": "Use eToken as game piece@48_34",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "usecase",
+              "tree_level": 2,
+              "uuid": "742782c2-711e-4648-97a9-c0ec115e6904",
+              "uuid_parent": "c1097bd6-b750-40db-898c-4a08505de6ba",
+              "value_types": null
+            }
+          ],
+          "constants": [
+            null
+          ],
+          "context_type": "Sysml2_packageContext",
+          "element_text": null,
+          "fully_qualified_name": "Model::Behavior",
+          "fully_qualified_name_tagged": "Model@0_None::Behavior@34_0",
+          "idx": 34,
+          "idx_parent": 0,
+          "idx_related_element": null,
+          "keywords": [
+            "package"
+          ],
+          "multiplicity": null,
+          "name": "Behavior@34_0",
+          "related_element_name": null,
+          "sysml2_layer": "Kernel Element",
+          "sysml2_type": "package",
+          "tree_level": 1,
+          "uuid": "c1097bd6-b750-40db-898c-4a08505de6ba",
+          "uuid_parent": "6658a4e5-14b4-4ff2-bbc4-bb4cfb33810a",
+          "value_types": null
+        }
+      ],
+      "constants": [
+        null
+      ],
+      "context_type": "Sysml2_packageContext",
+      "element_text": null,
+      "fully_qualified_name": "Model",
+      "fully_qualified_name_tagged": "Model@0_None",
+      "idx": 0,
+      "idx_parent": null,
+      "idx_related_element": null,
+      "keywords": [
+        "package"
+      ],
+      "multiplicity": null,
+      "name": "Model@0_None",
+      "related_element_name": null,
+      "sysml2_layer": "Kernel Element",
+      "sysml2_type": "package",
+      "tree_level": 0,
+      "uuid": "6658a4e5-14b4-4ff2-bbc4-bb4cfb33810a",
+      "uuid_parent": null,
+      "value_types": null
+    }
+  ],
+  "input_file": "./test_models/model_test_1.sysml2",
+  "name": "root",
+  "sysml2_visitor": "<class 'pysysml2.grammar.sysml2_model_visitor.ModelTreeSysML2Visitor'>"
+}

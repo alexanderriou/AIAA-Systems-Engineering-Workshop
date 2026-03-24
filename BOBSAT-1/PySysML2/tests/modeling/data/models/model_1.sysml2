@@ -1,0 +1,74 @@
+package Model{
+    doc /* This is the documentation for the Model package*/
+    /* This is a comment */
+    // This is a note 1
+    comment Comment_1 /* This is a named comment */
+    package Structure{
+        
+        part def 'WiFi Card' {} // This is a note 2
+        part def 'Bluetooth Card' {}
+        part def 'Icon';
+        part def 'Controller Board' {
+            part 'wifi card' : 'WiFi Card' [1..2];
+            part 'bluetooth card' : 'Bluetooth Card';
+            attribute 'RAM' : Integer;
+            attribute 'Primary Interface' : String;
+            attribute 'Secondary Interface' : String;
+            attribute 'WiFi Frequency' : Real;
+            attribute 'WiFi Protocol' : String;
+            attribute 'Bluetooth Capable' : Boolean;
+        // This is a note 3
+        }
+        part def 'LCD Display' {}
+        part def 'Battery' {// This is a note 4
+        }
+        part def 'Raspberry Pi Pico Wireless' specializes 'Controller Board' {
+            attribute redefines 'RAM' = 264;
+            attribute redefines 'Bluetooth Capable' = false;
+            attribute redefines 'Primary Interface' = "USB 1.1";
+            attribute redefines 'Secondary Interface' = "SPI";
+            attribute redefines 'WiFi Protocol' = "Wireless (802.11n)";
+            attribute redefines 'WiFi Frequency' = 2.4; // Another note 4
+            // Another note 5
+        }
+        part def 'Bicool Round LCD IPS Display GC9A01' specializes 'LCD Display' {}
+        
+        part def 'TTRPG eToken System' {
+            part 'controller board' : 'Controller Board';
+            part 'lcd display' : 'LCD Display';
+            part 'battery' : 'Battery';
+        }
+        part def 'TTRPG eToken System Prototype' {
+            part 'controller board' : 'Raspberry Pi Pico Wireless';
+            part 'lcd display' : 'Bicool Round LCD IPS Display GC9A01';
+        }
+    }
+    package Behavior{
+
+        part def 'User' {}
+        use case def 'Change displayed image on eToken'{
+            actor 'user' : 'User';
+            objective {
+                doc /*The user changes the displayed image on the eToken to one that is currently stored in storage*/
+            }
+        }
+        use case def 'Remove existing image form eToken'{
+            objective {
+                doc /*The user deletes an image from the eToken currently stored in storage*/
+            }
+            actor 'user' : 'User';
+        }
+        use case def 'Load new image to eToken'{
+            objective {
+                doc /*The user uploads a new image to the eToken's storage*/
+            }
+            actor 'user' : 'User';
+        }
+        use case def 'Use eToken as game piece'{
+            objective {
+                doc /*The user places the eToken on the board to use as a game piece*/
+            }
+            actor 'user' : 'User';
+        }
+    }
+}

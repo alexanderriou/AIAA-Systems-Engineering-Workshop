@@ -1,0 +1,22 @@
+[project]
+name = "bobsat-sysml-automation"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "alexanderriou",email = "aglasgo@ucmerced.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pysysml2 @ file:///home/ariou/Desktop/Directory/Extracurriculars/Code/AIAA-Systems-Engineering-Workshop/BOBSAT-1/PySysML2"
+]
+
+[tool.poetry]
+packages = [{include = "bobsat_sysml_automation", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

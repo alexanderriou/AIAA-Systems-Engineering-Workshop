@@ -1,0 +1,275 @@
+import ScalarValues::*;
+
+package SimplifiedModel {
+    /*
+    DoorMonitor is a model of a student project that uses the BeaglePlay to connect a USB Webcam to a Python script and upload
+    selected footage to Twitch.io.
+    https://elinux.org/ECE434_Project_-_IOT_Entry_Way_Camera
+    */
+    part def Software;
+    part def Hardware;
+    part def Person;
+
+
+    part BeaglePlay {
+        /*
+        The BeaglePlay model describes the hardware and software components of the BeaglePlay Single Board Computer (SBC)
+        https://docs.beagle.cc/latest/boards/beagleplay/index.html
+        https://docs.beagleboard.org/latest/beagleplay.pdf
+        */
+        // External interface
+        part HDMI_Transmitter  {
+            // HDMI can be considered part of the attack surface!
+            port data;
+        }
+        part USB_A {
+            port socket;
+        }
+        part USB_C {
+            port socket;
+        }
+        part Ethernet_Connector  {
+            port ethernet;
+        }
+        part Button  {
+            port button;
+        }
+        part User_LED ;
+
+        // Internal microchip components and memory
+        part WiFI_chip;
+        part BLE_SubG; // software defined radio
+        part DDR4_8Gb_16bit;
+        part Micro_SD_Card_Socket  {
+            port socket;
+        }
+        part AM62x  {
+            attribute manufacturer = "Texas Instruments";
+            comment RoleComment /* Main microprocessor */
+            port USB;
+            port GPIO; // general purpose in/out pins
+            port MSDC; // micro SD card
+            port HDMI;
+
+        }
+
+        // Software
+        part default_image  {
+            /*
+            The default image included with the BeaglePlay, flashed Feb 2023
+            Could be extracted from inside the BeaglePlay part
+            */
+            part debian  {
+                attribute version = "11";
+                part Linux_Kernel ;
+                // There are 1300 packages installed with the default image. A subset will need to be chosen
+            }
+            part openssh_server  {
+                attribute version = "8.4";
+                in port ssh_port {
+                    attribute protocol = "TCP";
+                    attribute port_number = 22;
+                }
+            }
+            part openssh_client {
+                attribute version = "8.4";
+                out port ssh_port  {
+                    attribute protocol = "TCP";
+                    attribute port_number = 22;
+                }
+            }
+            part libssl1_1;
+            part python3  {
+                attribute version = "3.9.2";
+            }
+            part systemctl ;
+
+            port external_network; // An abstraction to cleanly connect external interfaces like Ethernet
+            port internal_network; // An abstraction to cleanly connect internal interfaces like openssh-server or applications
+
+            connect external_network to internal_network; // could be through iptables or similar
+            connect internal_network to openssh_server.ssh_port;
+            connect openssh_client.ssh_port to internal_network;
+        }
+
+
+//         Internal Connections
+        connect AM62x.HDMI to HDMI_Transmitter.data;
+        connect AM62x.GPIO to BLE_SubG; // software-defined radio
+        connect AM62x.GPIO to WiFI_chip;
+        connect AM62x.MSDC to Micro_SD_Card_Socket;
+//        connect AM62x.GPIO to 'User Button';
+        connect AM62.x.GPIO to Button.button;
+        connect AM62x.GPIO to User_LED;
+        connect AM62x.USB to USB_C;
+        connect AM62x.USB to USB_A;
+
+//         External Connections
+//        port 'USB-A-Socket'  {
+//            attribute usb_type =  "A";
+//        }
+//        port 'USB-C-Socket'  {
+//            attribute usb_type = "C";
+//        }
+//        port 'User Button';
+//        port 'Micro SD Socket' ;
+//        bind 'USB-A-Socket' = USB_A.socket;
+//        bind 'USB-C-Socket' = USB_C.socket;
+//        bind Button.button = 'User Button';
+//        bind 'Micro SD Socket' = Micro_SD_Card_Socket.socket;
+
+        connect default_image to AM62x;
+
+//         Internet connections
+        connection USB_C_internet  {
+            end part physical;
+            end part network;
+            attribute IP = "192.168.6.2";
+        }
+        connect USB_C_internet.physical to AM62x.USB;
+        connect USB_C_internet.network to default_image.external_network;
+
+        connection WiFi  {
+            end part physical;
+            end part network;
+        }
+        connect WiFi.network to default_image.external_network;
+        connect WiFi.physical to WiFI_chip;
+
+        connection Ethernet  {
+            end part physical;
+            end part network;
+            attribute IP = "192.168.7.2";
+        }
+
+        connect Ethernet_Connector to Ethernet.physical;
+        connect Ethernet.network to default_image.external_network;
+    }
+
+    part twitch_io {
+        in port api_port {
+            attribute protocol = "TCP";
+            attribute port_number = 443;
+        }
+    }
+
+    part email_provider;
+
+    part Webcam {
+        port USB_A_plug;
+        attribute image : String;
+    }
+    part Micro_SD_Card;
+    connect Webcam.USB_A_plug to BeaglePlay.USB_A.socket;
+    connect Micro_SD_Card to BeaglePlay.Micro_SD_Card_Socket.socket;
+    part entrycam_script  {
+        part entrycam ;
+        part imageProcessing ;
+        part config {
+            attribute Twitch_credentials : String;
+            attribute email_credentials : String;
+            attribute recipient_address : String;
+        }
+        part messaging ;
+        connect entrycam to imageProcessing;
+        connect entrycam to config;
+        connect imageProcessing to config;
+        connect imageProcessing to messaging;
+        connect messaging to config;
+
+        out port api_call  {
+            attribute protocol = "TCP";
+            attribute port_number = 443;
+        }
+    }
+    part subprocess_python;
+    part ffmpeg ;
+    part cv2 ;
+
+    connect entrycam_script.entrycam to cv2;
+    connect entrycam_script.entrycam to subprocess_python;
+    connect entrycam_script.imageProcessing to cv2;
+
+
+    connect entrycam_script.imageProcessing to ffmpeg;
+
+    // The application has three software connections:
+    // it is loaded as a service through systemctl
+    // it is invoked through python3
+    // it makes outbound connections to the internet through the internal network
+    connect BeaglePlay.default_image.systemctl to entrycam_script;
+    connect BeaglePlay.default_image.python3 to entrycam_script;
+    connect entrycam_script.api_call to BeaglePlay.default_image.internal_network;
+
+    // Here's something interesting. Use this package to directly connect two other packages
+    connect BeaglePlay.default_image.external_network to twitch_io.api_port;
+
+    use case Monitor_Video_Telemetry {
+        // Primary Mission
+        subject system = BeaglePlay;
+        // subject system;
+        doc /* The system provides an uninterrupted stream of video telemetry via an online platform. */
+        actor monitoring_user : Person;
+
+        // get telemetry from web cam
+        include Stream_video_from_webcam {
+            actor :>> script = entrycam_script;
+            message of Webcam.image from Webcam to entrycam_script.imageProcessing;
+        }
+        // process telemetry with ffmpeg
+        include Process_telemetry {
+            actor software = entrycam_script;
+            message of Webcam.image from entrycam_script.imageProcessing to subprocess_python;
+            message of Webcam.image from subprocess_python to 'ffmpeg';
+        }
+
+        use case Stream_to_Twitch {
+            subject service = twitch_io;
+            actor software = entrycam_script;
+            actor viewer = monitoring_user;
+            message of entrycam_script.config.Twitch_credentials from software to service;
+            message of Webcam.image from 'ffmpeg' to service;
+        }
+    }
+
+    use case Alert_on_Detected_Intruders {
+        // Primary Mission
+        subject system = BeaglePlay;
+        doc /* The system sends an email alert when a human is detected in the video telemetry. */
+        actor monitoring_user : Person;
+        actor  intruder : Person;
+
+        // get telemetry from web cam
+        include Stream_video_from_webcam {
+            actor :>> script = entrycam_script;
+            message of Webcam.image from Webcam to script;
+        }
+
+        use case Detect_face {
+            subject face_detector = cv2;
+            actor script = entrycam_script;
+            actor face = intruder;
+        }
+
+        use case Send_alert_message {
+            subject service = email_provider;
+            actor script  = entrycam_script;
+            actor recipient = monitoring_user;
+            message of entrycam_script.config.email_credentials from script to service;
+            message of entrycam_script.config.recipient_address from script to service;
+        }
+
+    }
+
+    use case Stream_video_from_webcam {
+        subject camera = Webcam;
+        actor script : Software;
+    }
+
+    use case Process_telemetry {
+        subject library = 'ffmpeg';
+        actor script : Software;
+    }
+
+
+}

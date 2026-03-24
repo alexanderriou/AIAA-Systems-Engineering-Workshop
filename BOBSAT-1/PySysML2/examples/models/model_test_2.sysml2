@@ -1,0 +1,134 @@
+// Be aware that anything after double forward slash on a single line is completely ignored and not part of the model. [1]: pg 16
+// My convention will be to annotate features of the SysML2 language with notes, along with references.
+// I will also include meta commentary on the PySysML2 reader in notes.
+
+// References ------------------------------------------------------------------------------------------------------------------------------------------------
+// [1]: Intro to the SysML v2 Language-Textual Notation.pdf (https://github.com/Systems-Modeling/SysML-v2-Release/tree/master/doc)
+
+import ISQ::*;
+import ISQSpaceTime;
+import ScalarValues::*;
+
+package TTRPGeToken{
+    // These are examples of documentation style comments, regular comments, both named and unamed, along with Notes.
+    // Be aware that any comment style text NOT blocked by double slashes is actually part of the model. [1]: pg 16
+    // This is an example of a named documentation. [1]: pg 16
+    doc overview /* The TTRPGeToken is a device used for displaying NPC/PC avatars in a physical token that can be used in a Table Top RPG game. */
+
+    // This is an example of unnamed documentation. [1]: pg 16
+    doc /* TODO: include links to remotely hosted images */
+
+    doc // This is an exmple of an element ignoring whitespace and using a Note as an inline comment
+        /* TODO: include links to public facing documentation */
+
+    // Named comment example. Also demonstrating carriage reteruns in comments. [1]: pg 16
+    comment RevComment_1 /* TO: Maatlock: Please evaluate your vigorous use of commenting in the TTRPGeToken model. 
+                          * Comment variety in the language seems... excessive. Don't get carried away!
+                          */
+    package Structure{
+        
+        doc overview /* The structure package will contain all structural elements of the model */
+
+        // Note here that another doc comment named 'overview' has been created. These have unique names in the background, but
+        // PySysML will have to replicate this behavior through implementation of fully qualified names, uids, auto-generated names
+        // for unnamed elements
+
+        // This is an example of composite structures, [1] pg. 16
+        part def 'WiFi Component';
+        part def 'Bluetooth Component';
+        part def 'Integrated Wireless Chip' {
+            attribute name : String;
+            part wifiComponent : 'WiFi Component' {
+                attribute 'WiFi Frequency' : Real;
+                attribute 'WiFi Protocol' : String;
+            } 
+            part btComponent : 'Bluetooth Component'{
+                attribute 'Bluetooth Protocol' : String;
+            }
+        }
+        part def 'Controller Board' {
+
+            part def 'wChip' specializes 'Integrated Wireless Chip';
+            attribute 'RAM_kb' : Integer;
+            attribute 'Primary Interface' : String;
+            attribute 'Secondary Interface' : String;
+            attribute 'Bluetooth Capable' : Boolean;
+
+        }
+        part def 'LCD Display' {}
+        part def 'Battery' {
+            
+            attribute isRechargeable : Boolean;
+            attribute 'Battery Type' : String;
+            attribute name : String;
+            attribute avg_voltage_V : Real;
+            attribute avg_capacity_mAh : Real;
+        }
+        part def 'Raspberry Pi Pico Wireless' specializes 'Controller Board' {
+            doc info /*https://en.wikipedia.org/wiki/Raspberry_Pi*/
+            part def wChip_PiPicoW :> wChip{
+                attribute redefines name : String = "Infineon CYW43439";
+                part wifiComponet_PiPicoW :> wifiComponent{
+                    attribute redefines 'WiFi Frequency': Real = 2.4;
+                    attribute :> 'WiFi Protocol': String = "IEEE 802.11 b/g/n wireless LAN";
+                }
+                part btComponet_PiPicoW :> btComponent{
+                    attribute redefines 'Bluetooth Protocol' : String = "Bluetooth 5.2";
+                }
+            }
+            attribute :> 'RAM_kb' = 264;
+            attribute :> 'Bluetooth Capable' = true;
+            attribute :> 'Primary Interface' = "USB 1.1";
+            attribute redefines 'Secondary Interface' = "SPI";
+        }
+
+        part def 'AA Battery Duracell Quantum' specializes 'Battery' {
+            attribute :> isRechargeable : Boolean = false;
+            attribute :> 'Battery Type' : String = "AA";
+            attribute :> name : String = "Duracell Quantum";
+            attribute :> avg_voltage_V : Real = 1.5;
+            attribute :> avg_capacity_mAh : Real = 2350.0;
+        }
+        // Specialize using the "subset" symbol
+        part def 'Bicool Round LCD IPS Display GC9A01' :> 'LCD Display' {}
+        
+        part def 'TTRPG eToken System' {
+            part 'controller board' : 'Controller Board';
+            part 'lcd display' : 'LCD Display';
+            part 'battery' : 'Battery'[1..2];
+        }
+        part def 'TTRPG eToken System Prototype' {
+            part 'controller board' : 'Raspberry Pi Pico Wireless';
+            part 'lcd display' : 'Bicool Round LCD IPS Display GC9A01';
+            part 'battery' : 'AA Battery Duracell Quantum';
+        }
+    }
+    package Behavior{
+
+        part def 'User' {}
+        use case def 'Change displayed image on eToken'{
+            actor 'user' : 'User';
+            objective {
+                doc /*The user changes the displayed image on the eToken to one that is currently stored in storage*/
+            }
+        }
+        use case def 'Remove existing image form eToken'{
+            objective {
+                doc /*The user deletes an image from the eToken currently stored in storage*/
+            }
+            actor 'user' : 'User';
+        }
+        use case def 'Load new image to eToken'{
+            objective {
+                doc /*The user uploads a new image to the eToken's storage*/
+            }
+            actor 'user' : 'User';
+        }
+        use case def 'Use eToken as game piece'{
+            objective {
+                doc /*The user places the eToken on the board to use as a game piece*/
+            }
+            actor 'user' : 'User';
+        }
+    }
+}

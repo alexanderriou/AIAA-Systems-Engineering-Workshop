@@ -10,4 +10,9 @@ This section covers the automation elements that we had to build more-or-less fr
 ## Setting up the Automation Package from Scratch
 There are some parts of the automation that we have to set up from scratch. Eventually, this will be condensed into its own repository that we can simply import by itself. Alas!
 
-
+1. Download and unzip the repository from here: https://github.com/DAF-Digital-Transformation-Office/PySysML2. Rename the folder to PySysML2.
+2. Run the setup_poetry.sh script from the root directory. If/when this fails, go to the BOBSAT_SysML_Automation/pyproject.toml and add this section: 
+    [tool.poetry.dependencies]
+    python = ">=3.12,<4.0"
+    Then run the setup.poetry.sh script again.
+3. 

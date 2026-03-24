@@ -1,0 +1,397 @@
+name,sysml2_type,parent,idx,uuid,idx_parent,uuid_parent,idx_related_element,related_element_name,value_types,constants,multiplicity,context_type,keywords,fully_qualified_name,fully_qualified_name_tagged,tree_level,element_text
+ISQ@0_None,import,"[root]: 
+├── [0]: ISQ@0_None
+├── [1]: ISQSpaceTime@1_None
+├── [2]: ScalarValues@2_None
+└── [3]: TTRPGeToken@3_None
+    ├── [4]: overview@4_3
+    ├── [5]: PySysML2_GENERATED_NAME_5_3@5_3
+    ├── [6]: PySysML2_GENERATED_NAME_6_3@6_3
+    ├── [7]: RevComment_1@7_3
+    ├── [8]: Structure@8_3
+    │   ├── [9]: overview@9_8
+    │   ├── [10]: WiFi Component@10_8
+    │   ├── [11]: Bluetooth Component@11_8
+    │   ├── [12]: Integrated Wireless Chip@12_8
+    │   │   ├── [13]: name@13_12
+    │   │   ├── [14]: wifiComponent@14_12
+    │   │   │   ├── [15]: WiFi Frequency@15_14
+    │   │   │   └── [16]: WiFi Protocol@16_14
+    │   │   └── [17]: btComponent@17_12
+    │   │       └── [18]: Bluetooth Protocol@18_17
+    │   ├── [19]: Controller Board@19_8
+    │   │   ├── [20]: wChip@20_19
+    │   │   ├── [21]: RAM_kb@21_19
+    │   │   ├── [22]: Primary Interface@22_19
+    │   │   ├── [23]: Secondary Interface@23_19
+    │   │   └── [24]: Bluetooth Capable@24_19
+    │   ├── [25]: LCD Display@25_8
+    │   ├── [26]: Battery@26_8
+    │   │   ├── [27]: isRechargeable@27_26
+    │   │   ├── [28]: Battery Type@28_26
+    │   │   ├── [29]: name@29_26
+    │   │   ├── [30]: avg_voltage_V@30_26
+    │   │   └── [31]: avg_capacity_mAh@31_26
+    │   ├── [32]: Raspberry Pi Pico Wireless@32_8
+    │   │   ├── [33]: info@33_32
+    │   │   ├── [34]: wChip_PiPicoW@34_32
+    │   │   │   ├── [35]: name@35_34
+    │   │   │   ├── [36]: wifiComponet_PiPicoW@36_34
+    │   │   │   │   ├── [37]: WiFi Frequency@37_36
+    │   │   │   │   └── [38]: WiFi Protocol@38_36
+    │   │   │   └── [39]: btComponet_PiPicoW@39_34
+    │   │   │       └── [40]: Bluetooth Protocol@40_39
+    │   │   ├── [41]: RAM_kb@41_32
+    │   │   ├── [42]: Bluetooth Capable@42_32
+    │   │   ├── [43]: Primary Interface@43_32
+    │   │   └── [44]: Secondary Interface@44_32
+    │   ├── [45]: AA Battery Duracell Quantum@45_8
+    │   │   ├── [46]: isRechargeable@46_45
+    │   │   ├── [47]: Battery Type@47_45
+    │   │   ├── [48]: name@48_45
+    │   │   ├── [49]: avg_voltage_V@49_45
+    │   │   └── [50]: avg_capacity_mAh@50_45
+    │   ├── [51]: Bicool Round LCD IPS Display GC9A01@51_8
+    │   ├── [52]: TTRPG eToken System@52_8
+    │   │   ├── [53]: controller board@53_52
+    │   │   ├── [54]: lcd display@54_52
+    │   │   └── [55]: battery@55_52
+    │   └── [56]: TTRPG eToken System Prototype@56_8
+    │       ├── [57]: controller board@57_56
+    │       ├── [58]: lcd display@58_56
+    │       └── [59]: battery@59_56
+    └── [60]: Behavior@60_3
+        ├── [61]: User@61_60
+        ├── [62]: Change displayed image on eToken@62_60
+        │   ├── [63]: user@63_62
+        │   └── [64]: PySysML2_GENERATED_NAME_64_62@64_62
+        │       └── [65]: PySysML2_GENERATED_NAME_65_64@65_64
+        ├── [66]: Remove existing image form eToken@66_60
+        │   ├── [67]: PySysML2_GENERATED_NAME_67_66@67_66
+        │   │   └── [68]: PySysML2_GENERATED_NAME_68_67@68_67
+        │   └── [69]: user@69_66
+        ├── [70]: Load new image to eToken@70_60
+        │   ├── [71]: PySysML2_GENERATED_NAME_71_70@71_70
+        │   │   └── [72]: PySysML2_GENERATED_NAME_72_71@72_71
+        │   └── [73]: user@73_70
+        └── [74]: Use eToken as game piece@74_60
+            ├── [75]: PySysML2_GENERATED_NAME_75_74@75_74
+            │   └── [76]: PySysML2_GENERATED_NAME_76_75@76_75
+            └── [77]: user@77_74
+",0,1bc64f76-0289-41eb-9323-0f07655cf541,,,,,,[None],,Import_packageContext,"['import', 'package']",ISQ,ISQ@0_None,0,
+ISQSpaceTime@1_None,import,"[root]: 
+├── [0]: ISQ@0_None
+├── [1]: ISQSpaceTime@1_None
+├── [2]: ScalarValues@2_None
+└── [3]: TTRPGeToken@3_None
+    ├── [4]: overview@4_3
+    ├── [5]: PySysML2_GENERATED_NAME_5_3@5_3
+    ├── [6]: PySysML2_GENERATED_NAME_6_3@6_3
+    ├── [7]: RevComment_1@7_3
+    ├── [8]: Structure@8_3
+    │   ├── [9]: overview@9_8
+    │   ├── [10]: WiFi Component@10_8
+    │   ├── [11]: Bluetooth Component@11_8
+    │   ├── [12]: Integrated Wireless Chip@12_8
+    │   │   ├── [13]: name@13_12
+    │   │   ├── [14]: wifiComponent@14_12
+    │   │   │   ├── [15]: WiFi Frequency@15_14
+    │   │   │   └── [16]: WiFi Protocol@16_14
+    │   │   └── [17]: btComponent@17_12
+    │   │       └── [18]: Bluetooth Protocol@18_17
+    │   ├── [19]: Controller Board@19_8
+    │   │   ├── [20]: wChip@20_19
+    │   │   ├── [21]: RAM_kb@21_19
+    │   │   ├── [22]: Primary Interface@22_19
+    │   │   ├── [23]: Secondary Interface@23_19
+    │   │   └── [24]: Bluetooth Capable@24_19
+    │   ├── [25]: LCD Display@25_8
+    │   ├── [26]: Battery@26_8
+    │   │   ├── [27]: isRechargeable@27_26
+    │   │   ├── [28]: Battery Type@28_26
+    │   │   ├── [29]: name@29_26
+    │   │   ├── [30]: avg_voltage_V@30_26
+    │   │   └── [31]: avg_capacity_mAh@31_26
+    │   ├── [32]: Raspberry Pi Pico Wireless@32_8
+    │   │   ├── [33]: info@33_32
+    │   │   ├── [34]: wChip_PiPicoW@34_32
+    │   │   │   ├── [35]: name@35_34
+    │   │   │   ├── [36]: wifiComponet_PiPicoW@36_34
+    │   │   │   │   ├── [37]: WiFi Frequency@37_36
+    │   │   │   │   └── [38]: WiFi Protocol@38_36
+    │   │   │   └── [39]: btComponet_PiPicoW@39_34
+    │   │   │       └── [40]: Bluetooth Protocol@40_39
+    │   │   ├── [41]: RAM_kb@41_32
+    │   │   ├── [42]: Bluetooth Capable@42_32
+    │   │   ├── [43]: Primary Interface@43_32
+    │   │   └── [44]: Secondary Interface@44_32
+    │   ├── [45]: AA Battery Duracell Quantum@45_8
+    │   │   ├── [46]: isRechargeable@46_45
+    │   │   ├── [47]: Battery Type@47_45
+    │   │   ├── [48]: name@48_45
+    │   │   ├── [49]: avg_voltage_V@49_45
+    │   │   └── [50]: avg_capacity_mAh@50_45
+    │   ├── [51]: Bicool Round LCD IPS Display GC9A01@51_8
+    │   ├── [52]: TTRPG eToken System@52_8
+    │   │   ├── [53]: controller board@53_52
+    │   │   ├── [54]: lcd display@54_52
+    │   │   └── [55]: battery@55_52
+    │   └── [56]: TTRPG eToken System Prototype@56_8
+    │       ├── [57]: controller board@57_56
+    │       ├── [58]: lcd display@58_56
+    │       └── [59]: battery@59_56
+    └── [60]: Behavior@60_3
+        ├── [61]: User@61_60
+        ├── [62]: Change displayed image on eToken@62_60
+        │   ├── [63]: user@63_62
+        │   └── [64]: PySysML2_GENERATED_NAME_64_62@64_62
+        │       └── [65]: PySysML2_GENERATED_NAME_65_64@65_64
+        ├── [66]: Remove existing image form eToken@66_60
+        │   ├── [67]: PySysML2_GENERATED_NAME_67_66@67_66
+        │   │   └── [68]: PySysML2_GENERATED_NAME_68_67@68_67
+        │   └── [69]: user@69_66
+        ├── [70]: Load new image to eToken@70_60
+        │   ├── [71]: PySysML2_GENERATED_NAME_71_70@71_70
+        │   │   └── [72]: PySysML2_GENERATED_NAME_72_71@72_71
+        │   └── [73]: user@73_70
+        └── [74]: Use eToken as game piece@74_60
+            ├── [75]: PySysML2_GENERATED_NAME_75_74@75_74
+            │   └── [76]: PySysML2_GENERATED_NAME_76_75@76_75
+            └── [77]: user@77_74
+",1,7a696422-3929-4378-a953-3e3b194fe440,,,,,,[None],,Import_packageContext,"['import', 'package']",ISQSpaceTime,ISQSpaceTime@1_None,0,
+ScalarValues@2_None,import,"[root]: 
+├── [0]: ISQ@0_None
+├── [1]: ISQSpaceTime@1_None
+├── [2]: ScalarValues@2_None
+└── [3]: TTRPGeToken@3_None
+    ├── [4]: overview@4_3
+    ├── [5]: PySysML2_GENERATED_NAME_5_3@5_3
+    ├── [6]: PySysML2_GENERATED_NAME_6_3@6_3
+    ├── [7]: RevComment_1@7_3
+    ├── [8]: Structure@8_3
+    │   ├── [9]: overview@9_8
+    │   ├── [10]: WiFi Component@10_8
+    │   ├── [11]: Bluetooth Component@11_8
+    │   ├── [12]: Integrated Wireless Chip@12_8
+    │   │   ├── [13]: name@13_12
+    │   │   ├── [14]: wifiComponent@14_12
+    │   │   │   ├── [15]: WiFi Frequency@15_14
+    │   │   │   └── [16]: WiFi Protocol@16_14
+    │   │   └── [17]: btComponent@17_12
+    │   │       └── [18]: Bluetooth Protocol@18_17
+    │   ├── [19]: Controller Board@19_8
+    │   │   ├── [20]: wChip@20_19
+    │   │   ├── [21]: RAM_kb@21_19
+    │   │   ├── [22]: Primary Interface@22_19
+    │   │   ├── [23]: Secondary Interface@23_19
+    │   │   └── [24]: Bluetooth Capable@24_19
+    │   ├── [25]: LCD Display@25_8
+    │   ├── [26]: Battery@26_8
+    │   │   ├── [27]: isRechargeable@27_26
+    │   │   ├── [28]: Battery Type@28_26
+    │   │   ├── [29]: name@29_26
+    │   │   ├── [30]: avg_voltage_V@30_26
+    │   │   └── [31]: avg_capacity_mAh@31_26
+    │   ├── [32]: Raspberry Pi Pico Wireless@32_8
+    │   │   ├── [33]: info@33_32
+    │   │   ├── [34]: wChip_PiPicoW@34_32
+    │   │   │   ├── [35]: name@35_34
+    │   │   │   ├── [36]: wifiComponet_PiPicoW@36_34
+    │   │   │   │   ├── [37]: WiFi Frequency@37_36
+    │   │   │   │   └── [38]: WiFi Protocol@38_36
+    │   │   │   └── [39]: btComponet_PiPicoW@39_34
+    │   │   │       └── [40]: Bluetooth Protocol@40_39
+    │   │   ├── [41]: RAM_kb@41_32
+    │   │   ├── [42]: Bluetooth Capable@42_32
+    │   │   ├── [43]: Primary Interface@43_32
+    │   │   └── [44]: Secondary Interface@44_32
+    │   ├── [45]: AA Battery Duracell Quantum@45_8
+    │   │   ├── [46]: isRechargeable@46_45
+    │   │   ├── [47]: Battery Type@47_45
+    │   │   ├── [48]: name@48_45
+    │   │   ├── [49]: avg_voltage_V@49_45
+    │   │   └── [50]: avg_capacity_mAh@50_45
+    │   ├── [51]: Bicool Round LCD IPS Display GC9A01@51_8
+    │   ├── [52]: TTRPG eToken System@52_8
+    │   │   ├── [53]: controller board@53_52
+    │   │   ├── [54]: lcd display@54_52
+    │   │   └── [55]: battery@55_52
+    │   └── [56]: TTRPG eToken System Prototype@56_8
+    │       ├── [57]: controller board@57_56
+    │       ├── [58]: lcd display@58_56
+    │       └── [59]: battery@59_56
+    └── [60]: Behavior@60_3
+        ├── [61]: User@61_60
+        ├── [62]: Change displayed image on eToken@62_60
+        │   ├── [63]: user@63_62
+        │   └── [64]: PySysML2_GENERATED_NAME_64_62@64_62
+        │       └── [65]: PySysML2_GENERATED_NAME_65_64@65_64
+        ├── [66]: Remove existing image form eToken@66_60
+        │   ├── [67]: PySysML2_GENERATED_NAME_67_66@67_66
+        │   │   └── [68]: PySysML2_GENERATED_NAME_68_67@68_67
+        │   └── [69]: user@69_66
+        ├── [70]: Load new image to eToken@70_60
+        │   ├── [71]: PySysML2_GENERATED_NAME_71_70@71_70
+        │   │   └── [72]: PySysML2_GENERATED_NAME_72_71@72_71
+        │   └── [73]: user@73_70
+        └── [74]: Use eToken as game piece@74_60
+            ├── [75]: PySysML2_GENERATED_NAME_75_74@75_74
+            │   └── [76]: PySysML2_GENERATED_NAME_76_75@76_75
+            └── [77]: user@77_74
+",2,c1c8bf9f-ff59-4560-8a6f-a3a95f41c1f0,,,,,,[None],,Import_packageContext,"['import', 'package']",ScalarValues,ScalarValues@2_None,0,
+TTRPGeToken@3_None,package,"[root]: 
+├── [0]: ISQ@0_None
+├── [1]: ISQSpaceTime@1_None
+├── [2]: ScalarValues@2_None
+└── [3]: TTRPGeToken@3_None
+    ├── [4]: overview@4_3
+    ├── [5]: PySysML2_GENERATED_NAME_5_3@5_3
+    ├── [6]: PySysML2_GENERATED_NAME_6_3@6_3
+    ├── [7]: RevComment_1@7_3
+    ├── [8]: Structure@8_3
+    │   ├── [9]: overview@9_8
+    │   ├── [10]: WiFi Component@10_8
+    │   ├── [11]: Bluetooth Component@11_8
+    │   ├── [12]: Integrated Wireless Chip@12_8
+    │   │   ├── [13]: name@13_12
+    │   │   ├── [14]: wifiComponent@14_12
+    │   │   │   ├── [15]: WiFi Frequency@15_14
+    │   │   │   └── [16]: WiFi Protocol@16_14
+    │   │   └── [17]: btComponent@17_12
+    │   │       └── [18]: Bluetooth Protocol@18_17
+    │   ├── [19]: Controller Board@19_8
+    │   │   ├── [20]: wChip@20_19
+    │   │   ├── [21]: RAM_kb@21_19
+    │   │   ├── [22]: Primary Interface@22_19
+    │   │   ├── [23]: Secondary Interface@23_19
+    │   │   └── [24]: Bluetooth Capable@24_19
+    │   ├── [25]: LCD Display@25_8
+    │   ├── [26]: Battery@26_8
+    │   │   ├── [27]: isRechargeable@27_26
+    │   │   ├── [28]: Battery Type@28_26
+    │   │   ├── [29]: name@29_26
+    │   │   ├── [30]: avg_voltage_V@30_26
+    │   │   └── [31]: avg_capacity_mAh@31_26
+    │   ├── [32]: Raspberry Pi Pico Wireless@32_8
+    │   │   ├── [33]: info@33_32
+    │   │   ├── [34]: wChip_PiPicoW@34_32
+    │   │   │   ├── [35]: name@35_34
+    │   │   │   ├── [36]: wifiComponet_PiPicoW@36_34
+    │   │   │   │   ├── [37]: WiFi Frequency@37_36
+    │   │   │   │   └── [38]: WiFi Protocol@38_36
+    │   │   │   └── [39]: btComponet_PiPicoW@39_34
+    │   │   │       └── [40]: Bluetooth Protocol@40_39
+    │   │   ├── [41]: RAM_kb@41_32
+    │   │   ├── [42]: Bluetooth Capable@42_32
+    │   │   ├── [43]: Primary Interface@43_32
+    │   │   └── [44]: Secondary Interface@44_32
+    │   ├── [45]: AA Battery Duracell Quantum@45_8
+    │   │   ├── [46]: isRechargeable@46_45
+    │   │   ├── [47]: Battery Type@47_45
+    │   │   ├── [48]: name@48_45
+    │   │   ├── [49]: avg_voltage_V@49_45
+    │   │   └── [50]: avg_capacity_mAh@50_45
+    │   ├── [51]: Bicool Round LCD IPS Display GC9A01@51_8
+    │   ├── [52]: TTRPG eToken System@52_8
+    │   │   ├── [53]: controller board@53_52
+    │   │   ├── [54]: lcd display@54_52
+    │   │   └── [55]: battery@55_52
+    │   └── [56]: TTRPG eToken System Prototype@56_8
+    │       ├── [57]: controller board@57_56
+    │       ├── [58]: lcd display@58_56
+    │       └── [59]: battery@59_56
+    └── [60]: Behavior@60_3
+        ├── [61]: User@61_60
+        ├── [62]: Change displayed image on eToken@62_60
+        │   ├── [63]: user@63_62
+        │   └── [64]: PySysML2_GENERATED_NAME_64_62@64_62
+        │       └── [65]: PySysML2_GENERATED_NAME_65_64@65_64
+        ├── [66]: Remove existing image form eToken@66_60
+        │   ├── [67]: PySysML2_GENERATED_NAME_67_66@67_66
+        │   │   └── [68]: PySysML2_GENERATED_NAME_68_67@68_67
+        │   └── [69]: user@69_66
+        ├── [70]: Load new image to eToken@70_60
+        │   ├── [71]: PySysML2_GENERATED_NAME_71_70@71_70
+        │   │   └── [72]: PySysML2_GENERATED_NAME_72_71@72_71
+        │   └── [73]: user@73_70
+        └── [74]: Use eToken as game piece@74_60
+            ├── [75]: PySysML2_GENERATED_NAME_75_74@75_74
+            │   └── [76]: PySysML2_GENERATED_NAME_76_75@76_75
+            └── [77]: user@77_74
+",3,edb5f1e3-bdcb-4182-833e-391543c23c16,,,,,,[None],,Sysml2_packageContext,['package'],TTRPGeToken,TTRPGeToken@3_None,0,
+overview@4_3,doc,<modeling.element.Package object at 0x11e667a60>,4,d8501875-16dc-48d5-a6c8-c19bd1f50ee3,3.0,edb5f1e3-bdcb-4182-833e-391543c23c16,,,,[None],,Doc_namedContext,['doc'],TTRPGeToken::overview,TTRPGeToken@3_None::overview@4_3,1, The TTRPGeToken is a device used for displaying NPC/PC avatars in a physical token that can be used in a Table Top RPG game. 
+PySysML2_GENERATED_NAME_5_3@5_3,doc,<modeling.element.Package object at 0x11e667a60>,5,5035bd81-d2ba-4c06-b6c7-a5f4098101e3,3.0,edb5f1e3-bdcb-4182-833e-391543c23c16,,,,[None],,Doc_unnamedContext,['doc'],TTRPGeToken::PySysML2_GENERATED_NAME_5_3,TTRPGeToken@3_None::PySysML2_GENERATED_NAME_5_3@5_3,1, TODO: include links to remotely hosted images 
+PySysML2_GENERATED_NAME_6_3@6_3,doc,<modeling.element.Package object at 0x11e667a60>,6,d03c43a2-3889-4ef5-9a8d-71a030510311,3.0,edb5f1e3-bdcb-4182-833e-391543c23c16,,,,[None],,Doc_unnamedContext,['doc'],TTRPGeToken::PySysML2_GENERATED_NAME_6_3,TTRPGeToken@3_None::PySysML2_GENERATED_NAME_6_3@6_3,1, TODO: include links to public facing documentation 
+RevComment_1@7_3,comment,<modeling.element.Package object at 0x11e667a60>,7,1e99a3e8-0559-4a9f-9279-28ba0a4eab52,3.0,edb5f1e3-bdcb-4182-833e-391543c23c16,,,,[None],,Comment_namedContext,['comment'],TTRPGeToken::RevComment_1,TTRPGeToken@3_None::RevComment_1@7_3,1," TO: Maatlock: Please evaluate your vigorous use of commenting in the TTRPGeToken model. 
+                          * Comment variety in the language seems... excessive. Don't get carried away!
+                          "
+Structure@8_3,package,<modeling.element.Package object at 0x11e667a60>,8,5ef6133d-ea28-4fdd-b43c-c4675a624406,3.0,edb5f1e3-bdcb-4182-833e-391543c23c16,,,,[None],,Sysml2_packageContext,['package'],TTRPGeToken::Structure,TTRPGeToken@3_None::Structure@8_3,1,
+overview@9_8,doc,<modeling.element.Package object at 0x11e67f8b0>,9,8db853af-3042-4540-b330-ff9b851c5a70,8.0,5ef6133d-ea28-4fdd-b43c-c4675a624406,,,,[None],,Doc_namedContext,['doc'],TTRPGeToken::Structure::overview,TTRPGeToken@3_None::Structure@8_3::overview@9_8,2, The structure package will contain all structural elements of the model 
+WiFi Component@10_8,part,<modeling.element.Package object at 0x11e67f8b0>,10,e30e34b9-547e-4e41-b9e5-da7d2419cfe1,8.0,5ef6133d-ea28-4fdd-b43c-c4675a624406,,,,[None],,Part_defContext,"['def', 'part']",TTRPGeToken::Structure::WiFi Component,TTRPGeToken@3_None::Structure@8_3::WiFi Component@10_8,2,
+Bluetooth Component@11_8,part,<modeling.element.Package object at 0x11e67f8b0>,11,25b1a838-bb2d-4bf9-956a-7caf123de76f,8.0,5ef6133d-ea28-4fdd-b43c-c4675a624406,,,,[None],,Part_defContext,"['def', 'part']",TTRPGeToken::Structure::Bluetooth Component,TTRPGeToken@3_None::Structure@8_3::Bluetooth Component@11_8,2,
+Integrated Wireless Chip@12_8,part,<modeling.element.Package object at 0x11e67f8b0>,12,719bdad0-a215-4611-bb8c-d3dcbc2293d8,8.0,5ef6133d-ea28-4fdd-b43c-c4675a624406,,,,[None],,Part_defContext,"['def', 'part']",TTRPGeToken::Structure::Integrated Wireless Chip,TTRPGeToken@3_None::Structure@8_3::Integrated Wireless Chip@12_8,2,
+name@13_12,attribute,<modeling.element.Part object at 0x11e67f9d0>,13,1f5c22ec-67c0-4135-ac26-feb826a673c5,12.0,719bdad0-a215-4611-bb8c-d3dcbc2293d8,,,String,[None],,Feature_attribute_defContext,"['attribute', 'def']",TTRPGeToken::Structure::Integrated Wireless Chip::name,TTRPGeToken@3_None::Structure@8_3::Integrated Wireless Chip@12_8::name@13_12,3,
+wifiComponent@14_12,specializes,<modeling.element.Part object at 0x11e67f9d0>,14,6236fff0-4857-43d4-acaa-c1271836776f,12.0,719bdad0-a215-4611-bb8c-d3dcbc2293d8,10.0,WiFi Component@10_8,,[None],,Feature_part_specializesContext,"['part', 'specializes']",TTRPGeToken::Structure::Integrated Wireless Chip::wifiComponent,TTRPGeToken@3_None::Structure@8_3::Integrated Wireless Chip@12_8::wifiComponent@14_12,3,
+WiFi Frequency@15_14,attribute,<modeling.element.RelationshipSpecializes object at 0x11e67f9a0>,15,3633486b-9b6e-491b-8729-2d975617b759,14.0,6236fff0-4857-43d4-acaa-c1271836776f,,,Real,[None],,Feature_attribute_defContext,"['attribute', 'def']",TTRPGeToken::Structure::Integrated Wireless Chip::wifiComponent::WiFi Frequency,TTRPGeToken@3_None::Structure@8_3::Integrated Wireless Chip@12_8::wifiComponent@14_12::WiFi Frequency@15_14,4,
+WiFi Protocol@16_14,attribute,<modeling.element.RelationshipSpecializes object at 0x11e67f9a0>,16,08f1ba13-0a53-40b0-a4ef-0ab03adeab23,14.0,6236fff0-4857-43d4-acaa-c1271836776f,,,String,[None],,Feature_attribute_defContext,"['attribute', 'def']",TTRPGeToken::Structure::Integrated Wireless Chip::wifiComponent::WiFi Protocol,TTRPGeToken@3_None::Structure@8_3::Integrated Wireless Chip@12_8::wifiComponent@14_12::WiFi Protocol@16_14,4,
+btComponent@17_12,specializes,<modeling.element.Part object at 0x11e67f9d0>,17,35f8ae37-4a76-4deb-9bbf-ec8001a62476,12.0,719bdad0-a215-4611-bb8c-d3dcbc2293d8,11.0,Bluetooth Component@11_8,,[None],,Feature_part_specializesContext,"['part', 'specializes']",TTRPGeToken::Structure::Integrated Wireless Chip::btComponent,TTRPGeToken@3_None::Structure@8_3::Integrated Wireless Chip@12_8::btComponent@17_12,3,
+Bluetooth Protocol@18_17,attribute,<modeling.element.RelationshipSpecializes object at 0x11e67fa30>,18,33cf9a9d-fbd4-4788-bb2e-40e5a43583d1,17.0,35f8ae37-4a76-4deb-9bbf-ec8001a62476,,,String,[None],,Feature_attribute_defContext,"['attribute', 'def']",TTRPGeToken::Structure::Integrated Wireless Chip::btComponent::Bluetooth Protocol,TTRPGeToken@3_None::Structure@8_3::Integrated Wireless Chip@12_8::btComponent@17_12::Bluetooth Protocol@18_17,4,
+Controller Board@19_8,part,<modeling.element.Package object at 0x11e67f8b0>,19,0561ef65-f436-4ab2-b5cd-465652c2379a,8.0,5ef6133d-ea28-4fdd-b43c-c4675a624406,,,,[None],,Part_defContext,"['def', 'part']",TTRPGeToken::Structure::Controller Board,TTRPGeToken@3_None::Structure@8_3::Controller Board@19_8,2,
+wChip@20_19,specializes,<modeling.element.Part object at 0x11e67faf0>,20,510c733f-8673-4815-9d0c-56f29e6ed224,19.0,0561ef65-f436-4ab2-b5cd-465652c2379a,12.0,Integrated Wireless Chip@12_8,,[None],,Part_def_specializesContext,"['def', 'part', 'specializes']",TTRPGeToken::Structure::Controller Board::wChip,TTRPGeToken@3_None::Structure@8_3::Controller Board@19_8::wChip@20_19,3,
+RAM_kb@21_19,attribute,<modeling.element.Part object at 0x11e67faf0>,21,06417b8d-b2eb-4e7e-b539-2b50d52d70d3,19.0,0561ef65-f436-4ab2-b5cd-465652c2379a,,,Integer,[None],,Feature_attribute_defContext,"['attribute', 'def']",TTRPGeToken::Structure::Controller Board::RAM_kb,TTRPGeToken@3_None::Structure@8_3::Controller Board@19_8::RAM_kb@21_19,3,
+Primary Interface@22_19,attribute,<modeling.element.Part object at 0x11e67faf0>,22,b6b533f4-c7c5-4f26-b544-eba3bb18fc7a,19.0,0561ef65-f436-4ab2-b5cd-465652c2379a,,,String,[None],,Feature_attribute_defContext,"['attribute', 'def']",TTRPGeToken::Structure::Controller Board::Primary Interface,TTRPGeToken@3_None::Structure@8_3::Controller Board@19_8::Primary Interface@22_19,3,
+Secondary Interface@23_19,attribute,<modeling.element.Part object at 0x11e67faf0>,23,81067d7d-a79a-435a-9b9d-cd48eeadf172,19.0,0561ef65-f436-4ab2-b5cd-465652c2379a,,,String,[None],,Feature_attribute_defContext,"['attribute', 'def']",TTRPGeToken::Structure::Controller Board::Secondary Interface,TTRPGeToken@3_None::Structure@8_3::Controller Board@19_8::Secondary Interface@23_19,3,
+Bluetooth Capable@24_19,attribute,<modeling.element.Part object at 0x11e67faf0>,24,4c730db4-fa9f-4f02-81e2-308c038f4d16,19.0,0561ef65-f436-4ab2-b5cd-465652c2379a,,,Boolean,[None],,Feature_attribute_defContext,"['attribute', 'def']",TTRPGeToken::Structure::Controller Board::Bluetooth Capable,TTRPGeToken@3_None::Structure@8_3::Controller Board@19_8::Bluetooth Capable@24_19,3,
+LCD Display@25_8,part,<modeling.element.Package object at 0x11e67f8b0>,25,a46f2327-9b84-42ac-9123-c18313bf16e1,8.0,5ef6133d-ea28-4fdd-b43c-c4675a624406,,,,[None],,Part_defContext,"['def', 'part']",TTRPGeToken::Structure::LCD Display,TTRPGeToken@3_None::Structure@8_3::LCD Display@25_8,2,
+Battery@26_8,part,<modeling.element.Package object at 0x11e67f8b0>,26,11d4a91b-ec33-47d6-b098-41edf1bd47d7,8.0,5ef6133d-ea28-4fdd-b43c-c4675a624406,,,,[None],,Part_defContext,"['def', 'part']",TTRPGeToken::Structure::Battery,TTRPGeToken@3_None::Structure@8_3::Battery@26_8,2,
+isRechargeable@27_26,attribute,<modeling.element.Part object at 0x11e67fc40>,27,0f7d4aa4-d518-4472-8603-52506edcbdd6,26.0,11d4a91b-ec33-47d6-b098-41edf1bd47d7,,,Boolean,[None],,Feature_attribute_defContext,"['attribute', 'def']",TTRPGeToken::Structure::Battery::isRechargeable,TTRPGeToken@3_None::Structure@8_3::Battery@26_8::isRechargeable@27_26,3,
+Battery Type@28_26,attribute,<modeling.element.Part object at 0x11e67fc40>,28,778b6d42-217d-4cce-9b7c-2ac917bdd7be,26.0,11d4a91b-ec33-47d6-b098-41edf1bd47d7,,,String,[None],,Feature_attribute_defContext,"['attribute', 'def']",TTRPGeToken::Structure::Battery::Battery Type,TTRPGeToken@3_None::Structure@8_3::Battery@26_8::Battery Type@28_26,3,
+name@29_26,attribute,<modeling.element.Part object at 0x11e67fc40>,29,cd83547c-995d-4eeb-a4fa-494dd3a5a84f,26.0,11d4a91b-ec33-47d6-b098-41edf1bd47d7,,,String,[None],,Feature_attribute_defContext,"['attribute', 'def']",TTRPGeToken::Structure::Battery::name,TTRPGeToken@3_None::Structure@8_3::Battery@26_8::name@29_26,3,
+avg_voltage_V@30_26,attribute,<modeling.element.Part object at 0x11e67fc40>,30,f7263da9-0a29-4650-90a1-e0f47d6d7e3b,26.0,11d4a91b-ec33-47d6-b098-41edf1bd47d7,,,Real,[None],,Feature_attribute_defContext,"['attribute', 'def']",TTRPGeToken::Structure::Battery::avg_voltage_V,TTRPGeToken@3_None::Structure@8_3::Battery@26_8::avg_voltage_V@30_26,3,
+avg_capacity_mAh@31_26,attribute,<modeling.element.Part object at 0x11e67fc40>,31,217d36a0-3eb8-4c5f-a075-99ab3e07ca1d,26.0,11d4a91b-ec33-47d6-b098-41edf1bd47d7,,,Real,[None],,Feature_attribute_defContext,"['attribute', 'def']",TTRPGeToken::Structure::Battery::avg_capacity_mAh,TTRPGeToken@3_None::Structure@8_3::Battery@26_8::avg_capacity_mAh@31_26,3,
+Raspberry Pi Pico Wireless@32_8,specializes,<modeling.element.Package object at 0x11e67f8b0>,32,7d3be561-096d-4097-bdcd-5abba0955081,8.0,5ef6133d-ea28-4fdd-b43c-c4675a624406,19.0,Controller Board@19_8,,[None],,Part_def_specializesContext,"['def', 'part', 'specializes']",TTRPGeToken::Structure::Raspberry Pi Pico Wireless,TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8,2,
+info@33_32,doc,<modeling.element.RelationshipSpecializes object at 0x11e67fd60>,33,0f6e5031-dd83-4121-8dff-157600a69d58,32.0,7d3be561-096d-4097-bdcd-5abba0955081,,,,[None],,Doc_namedContext,['doc'],TTRPGeToken::Structure::Raspberry Pi Pico Wireless::info,TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::info@33_32,3,https://en.wikipedia.org/wiki/Raspberry_Pi
+wChip_PiPicoW@34_32,specializes,<modeling.element.RelationshipSpecializes object at 0x11e67fd60>,34,5cfed0f3-8a3c-47fe-ade7-2254e4b20532,32.0,7d3be561-096d-4097-bdcd-5abba0955081,20.0,wChip@20_19,,[None],,Part_def_specializesContext,"['def', 'part', 'specializes']",TTRPGeToken::Structure::Raspberry Pi Pico Wireless::wChip_PiPicoW,TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::wChip_PiPicoW@34_32,3,
+name@35_34,redefines,<modeling.element.RelationshipSpecializes object at 0x11e67fdc0>,35,525f2c51-dce9-46bf-a629-32eeb02e1c2f,34.0,5cfed0f3-8a3c-47fe-ade7-2254e4b20532,13.0,name@13_12,String,['Infineon CYW43439'],,Feature_attribute_redefinesContext,"['attribute', 'redefines']",TTRPGeToken::Structure::Raspberry Pi Pico Wireless::wChip_PiPicoW::name,TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::wChip_PiPicoW@34_32::name@35_34,4,
+wifiComponet_PiPicoW@36_34,specializes,<modeling.element.RelationshipSpecializes object at 0x11e67fdc0>,36,c8d7331d-9fbb-4aa0-b4e2-feb4908c6769,34.0,5cfed0f3-8a3c-47fe-ade7-2254e4b20532,14.0,wifiComponent@14_12,,[None],,Part_def_specializesContext,"['def', 'part', 'specializes']",TTRPGeToken::Structure::Raspberry Pi Pico Wireless::wChip_PiPicoW::wifiComponet_PiPicoW,TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::wChip_PiPicoW@34_32::wifiComponet_PiPicoW@36_34,4,
+WiFi Frequency@37_36,redefines,<modeling.element.RelationshipSpecializes object at 0x11e67fe20>,37,37919c2a-a614-4464-a981-408285fc1b10,36.0,c8d7331d-9fbb-4aa0-b4e2-feb4908c6769,15.0,WiFi Frequency@15_14,Real,['2.4'],,Feature_attribute_redefinesContext,"['attribute', 'redefines']",TTRPGeToken::Structure::Raspberry Pi Pico Wireless::wChip_PiPicoW::wifiComponet_PiPicoW::WiFi Frequency,TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::wChip_PiPicoW@34_32::wifiComponet_PiPicoW@36_34::WiFi Frequency@37_36,5,
+WiFi Protocol@38_36,redefines,<modeling.element.RelationshipSpecializes object at 0x11e67fe20>,38,45944c6c-015c-46fe-adf8-bef97ea9db96,36.0,c8d7331d-9fbb-4aa0-b4e2-feb4908c6769,16.0,WiFi Protocol@16_14,String,['IEEE 802.11 b/g/n wireless LAN'],,Feature_attribute_redefinesContext,"['attribute', 'redefines']",TTRPGeToken::Structure::Raspberry Pi Pico Wireless::wChip_PiPicoW::wifiComponet_PiPicoW::WiFi Protocol,TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::wChip_PiPicoW@34_32::wifiComponet_PiPicoW@36_34::WiFi Protocol@38_36,5,
+btComponet_PiPicoW@39_34,specializes,<modeling.element.RelationshipSpecializes object at 0x11e67fdc0>,39,3fcea8ff-5b45-4a13-b52a-325465ae15bd,34.0,5cfed0f3-8a3c-47fe-ade7-2254e4b20532,17.0,btComponent@17_12,,[None],,Part_def_specializesContext,"['def', 'part', 'specializes']",TTRPGeToken::Structure::Raspberry Pi Pico Wireless::wChip_PiPicoW::btComponet_PiPicoW,TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::wChip_PiPicoW@34_32::btComponet_PiPicoW@39_34,4,
+Bluetooth Protocol@40_39,redefines,<modeling.element.RelationshipSpecializes object at 0x11e67ff40>,40,abb025ae-bc9c-43f9-b601-f7e53c3a0bba,39.0,3fcea8ff-5b45-4a13-b52a-325465ae15bd,18.0,Bluetooth Protocol@18_17,String,['Bluetooth 5.2'],,Feature_attribute_redefinesContext,"['attribute', 'redefines']",TTRPGeToken::Structure::Raspberry Pi Pico Wireless::wChip_PiPicoW::btComponet_PiPicoW::Bluetooth Protocol,TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::wChip_PiPicoW@34_32::btComponet_PiPicoW@39_34::Bluetooth Protocol@40_39,5,
+RAM_kb@41_32,redefines,<modeling.element.RelationshipSpecializes object at 0x11e67fd60>,41,3779ddd6-36f1-4616-95db-289b79a26b1a,32.0,7d3be561-096d-4097-bdcd-5abba0955081,21.0,RAM_kb@21_19,,['264'],,Feature_attribute_redefinesContext,"['attribute', 'redefines']",TTRPGeToken::Structure::Raspberry Pi Pico Wireless::RAM_kb,TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::RAM_kb@41_32,3,
+Bluetooth Capable@42_32,redefines,<modeling.element.RelationshipSpecializes object at 0x11e67fd60>,42,e3339011-c0ee-4eab-88a6-c6f05f4c5fbb,32.0,7d3be561-096d-4097-bdcd-5abba0955081,24.0,Bluetooth Capable@24_19,,['true'],,Feature_attribute_redefinesContext,"['attribute', 'redefines']",TTRPGeToken::Structure::Raspberry Pi Pico Wireless::Bluetooth Capable,TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::Bluetooth Capable@42_32,3,
+Primary Interface@43_32,redefines,<modeling.element.RelationshipSpecializes object at 0x11e67fd60>,43,69c809a8-7005-4463-b6db-c71a01157ae3,32.0,7d3be561-096d-4097-bdcd-5abba0955081,22.0,Primary Interface@22_19,,['USB 1.1'],,Feature_attribute_redefinesContext,"['attribute', 'redefines']",TTRPGeToken::Structure::Raspberry Pi Pico Wireless::Primary Interface,TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::Primary Interface@43_32,3,
+Secondary Interface@44_32,redefines,<modeling.element.RelationshipSpecializes object at 0x11e67fd60>,44,2de85d32-e358-4825-8623-b4db52b37510,32.0,7d3be561-096d-4097-bdcd-5abba0955081,23.0,Secondary Interface@23_19,,['SPI'],,Feature_attribute_redefinesContext,"['attribute', 'redefines']",TTRPGeToken::Structure::Raspberry Pi Pico Wireless::Secondary Interface,TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::Secondary Interface@44_32,3,
+AA Battery Duracell Quantum@45_8,specializes,<modeling.element.Package object at 0x11e67f8b0>,45,01c5b233-2e34-417b-80c9-a441d2adafb7,8.0,5ef6133d-ea28-4fdd-b43c-c4675a624406,26.0,Battery@26_8,,[None],,Part_def_specializesContext,"['def', 'part', 'specializes']",TTRPGeToken::Structure::AA Battery Duracell Quantum,TTRPGeToken@3_None::Structure@8_3::AA Battery Duracell Quantum@45_8,2,
+isRechargeable@46_45,redefines,<modeling.element.RelationshipSpecializes object at 0x11e370220>,46,3cc4c672-ef03-42a4-9854-d35a6dfa3cdd,45.0,01c5b233-2e34-417b-80c9-a441d2adafb7,27.0,isRechargeable@27_26,Boolean,['false'],,Feature_attribute_redefinesContext,"['attribute', 'redefines']",TTRPGeToken::Structure::AA Battery Duracell Quantum::isRechargeable,TTRPGeToken@3_None::Structure@8_3::AA Battery Duracell Quantum@45_8::isRechargeable@46_45,3,
+Battery Type@47_45,redefines,<modeling.element.RelationshipSpecializes object at 0x11e370220>,47,8bc14336-7669-4043-bd08-050da501efc0,45.0,01c5b233-2e34-417b-80c9-a441d2adafb7,28.0,Battery Type@28_26,String,['AA'],,Feature_attribute_redefinesContext,"['attribute', 'redefines']",TTRPGeToken::Structure::AA Battery Duracell Quantum::Battery Type,TTRPGeToken@3_None::Structure@8_3::AA Battery Duracell Quantum@45_8::Battery Type@47_45,3,
+name@48_45,redefines,<modeling.element.RelationshipSpecializes object at 0x11e370220>,48,7988916c-f062-475a-9053-e23547016fd7,45.0,01c5b233-2e34-417b-80c9-a441d2adafb7,13.0,name@13_12,String,['Duracell Quantum'],,Feature_attribute_redefinesContext,"['attribute', 'redefines']",TTRPGeToken::Structure::AA Battery Duracell Quantum::name,TTRPGeToken@3_None::Structure@8_3::AA Battery Duracell Quantum@45_8::name@48_45,3,
+avg_voltage_V@49_45,redefines,<modeling.element.RelationshipSpecializes object at 0x11e370220>,49,70626db2-7249-45d5-9f19-93a178789cbf,45.0,01c5b233-2e34-417b-80c9-a441d2adafb7,30.0,avg_voltage_V@30_26,Real,['1.5'],,Feature_attribute_redefinesContext,"['attribute', 'redefines']",TTRPGeToken::Structure::AA Battery Duracell Quantum::avg_voltage_V,TTRPGeToken@3_None::Structure@8_3::AA Battery Duracell Quantum@45_8::avg_voltage_V@49_45,3,
+avg_capacity_mAh@50_45,redefines,<modeling.element.RelationshipSpecializes object at 0x11e370220>,50,c8f87e5b-f500-4d40-9352-57f110071c94,45.0,01c5b233-2e34-417b-80c9-a441d2adafb7,31.0,avg_capacity_mAh@31_26,Real,['2350.0'],,Feature_attribute_redefinesContext,"['attribute', 'redefines']",TTRPGeToken::Structure::AA Battery Duracell Quantum::avg_capacity_mAh,TTRPGeToken@3_None::Structure@8_3::AA Battery Duracell Quantum@45_8::avg_capacity_mAh@50_45,3,
+Bicool Round LCD IPS Display GC9A01@51_8,specializes,<modeling.element.Package object at 0x11e67f8b0>,51,93da7fd9-3bb2-4148-8b92-2f6897063ff1,8.0,5ef6133d-ea28-4fdd-b43c-c4675a624406,25.0,LCD Display@25_8,,[None],,Part_def_specializesContext,"['def', 'part', 'specializes']",TTRPGeToken::Structure::Bicool Round LCD IPS Display GC9A01,TTRPGeToken@3_None::Structure@8_3::Bicool Round LCD IPS Display GC9A01@51_8,2,
+TTRPG eToken System@52_8,part,<modeling.element.Package object at 0x11e67f8b0>,52,694c4eac-3e6d-43d9-bf64-da17965f6c7e,8.0,5ef6133d-ea28-4fdd-b43c-c4675a624406,,,,[None],,Part_defContext,"['def', 'part']",TTRPGeToken::Structure::TTRPG eToken System,TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System@52_8,2,
+controller board@53_52,specializes,<modeling.element.Part object at 0x11e70d160>,53,3b1c623a-276e-4c96-a054-bbbda4c145e7,52.0,694c4eac-3e6d-43d9-bf64-da17965f6c7e,19.0,Controller Board@19_8,,[None],,Feature_part_specializesContext,"['part', 'specializes']",TTRPGeToken::Structure::TTRPG eToken System::controller board,TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System@52_8::controller board@53_52,3,
+lcd display@54_52,specializes,<modeling.element.Part object at 0x11e70d160>,54,4d8dff1e-823b-4f80-a03d-432684a3a3e5,52.0,694c4eac-3e6d-43d9-bf64-da17965f6c7e,25.0,LCD Display@25_8,,[None],,Feature_part_specializesContext,"['part', 'specializes']",TTRPGeToken::Structure::TTRPG eToken System::lcd display,TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System@52_8::lcd display@54_52,3,
+battery@55_52,specializes,<modeling.element.Part object at 0x11e70d160>,55,9b727d6b-b1f6-4302-b528-72fb2220374e,52.0,694c4eac-3e6d-43d9-bf64-da17965f6c7e,26.0,Battery@26_8,,[None],[1..2],Feature_part_specializesContext,"['part', 'specializes']",TTRPGeToken::Structure::TTRPG eToken System::battery,TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System@52_8::battery@55_52,3,
+TTRPG eToken System Prototype@56_8,part,<modeling.element.Package object at 0x11e67f8b0>,56,02fb5ed2-66b7-4fd4-95ea-ca9b243ed956,8.0,5ef6133d-ea28-4fdd-b43c-c4675a624406,,,,[None],,Part_defContext,"['def', 'part']",TTRPGeToken::Structure::TTRPG eToken System Prototype,TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System Prototype@56_8,2,
+controller board@57_56,specializes,<modeling.element.Part object at 0x11e70d220>,57,15420046-4a05-4a6e-9f77-ec1c62562b90,56.0,02fb5ed2-66b7-4fd4-95ea-ca9b243ed956,32.0,Raspberry Pi Pico Wireless@32_8,,[None],,Feature_part_specializesContext,"['part', 'specializes']",TTRPGeToken::Structure::TTRPG eToken System Prototype::controller board,TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System Prototype@56_8::controller board@57_56,3,
+lcd display@58_56,specializes,<modeling.element.Part object at 0x11e70d220>,58,2460e7b9-783c-4928-a0a1-8f2ef5a8b8e2,56.0,02fb5ed2-66b7-4fd4-95ea-ca9b243ed956,51.0,Bicool Round LCD IPS Display GC9A01@51_8,,[None],,Feature_part_specializesContext,"['part', 'specializes']",TTRPGeToken::Structure::TTRPG eToken System Prototype::lcd display,TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System Prototype@56_8::lcd display@58_56,3,
+battery@59_56,specializes,<modeling.element.Part object at 0x11e70d220>,59,e70622da-1b05-43cf-a217-39bc5733342d,56.0,02fb5ed2-66b7-4fd4-95ea-ca9b243ed956,45.0,AA Battery Duracell Quantum@45_8,,[None],,Feature_part_specializesContext,"['part', 'specializes']",TTRPGeToken::Structure::TTRPG eToken System Prototype::battery,TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System Prototype@56_8::battery@59_56,3,
+Behavior@60_3,package,<modeling.element.Package object at 0x11e667a60>,60,f8d39a4a-0cca-4f4d-881c-be5178444396,3.0,edb5f1e3-bdcb-4182-833e-391543c23c16,,,,[None],,Sysml2_packageContext,['package'],TTRPGeToken::Behavior,TTRPGeToken@3_None::Behavior@60_3,1,
+User@61_60,part,<modeling.element.Package object at 0x11e70d2e0>,61,d42a5b47-3f2c-460e-a1e3-ff9e19a64369,60.0,f8d39a4a-0cca-4f4d-881c-be5178444396,,,,[None],,Part_defContext,"['def', 'part']",TTRPGeToken::Behavior::User,TTRPGeToken@3_None::Behavior@60_3::User@61_60,2,
+Change displayed image on eToken@62_60,usecase,<modeling.element.Package object at 0x11e70d2e0>,62,3be42adb-9c5e-4be6-97bc-479879c7baea,60.0,f8d39a4a-0cca-4f4d-881c-be5178444396,,,,[None],,Use_case_defContext,"['case', 'def', 'use']",TTRPGeToken::Behavior::Change displayed image on eToken,TTRPGeToken@3_None::Behavior@60_3::Change displayed image on eToken@62_60,2,
+user@63_62,specializes,<modeling.element.UseCase object at 0x11e70d340>,63,536d9142-e4af-4e1c-91e7-ed0dd9437c45,62.0,3be42adb-9c5e-4be6-97bc-479879c7baea,61.0,User@61_60,,[None],,Feature_actor_specializesContext,"['actor', 'specializes']",TTRPGeToken::Behavior::Change displayed image on eToken::user,TTRPGeToken@3_None::Behavior@60_3::Change displayed image on eToken@62_60::user@63_62,3,
+PySysML2_GENERATED_NAME_64_62@64_62,objective,<modeling.element.UseCase object at 0x11e70d340>,64,e0351b66-1b70-4e0c-b9ef-e10cd6de2236,62.0,3be42adb-9c5e-4be6-97bc-479879c7baea,,,,[None],,Objective_defContext,"['def', 'objective']",TTRPGeToken::Behavior::Change displayed image on eToken::PySysML2_GENERATED_NAME_64_62,TTRPGeToken@3_None::Behavior@60_3::Change displayed image on eToken@62_60::PySysML2_GENERATED_NAME_64_62@64_62,3,
+PySysML2_GENERATED_NAME_65_64@65_64,doc,<modeling.element.Objective object at 0x11e70d3a0>,65,2c900019-7994-48a4-840f-9181d4658e04,64.0,e0351b66-1b70-4e0c-b9ef-e10cd6de2236,,,,[None],,Doc_unnamedContext,['doc'],TTRPGeToken::Behavior::Change displayed image on eToken::PySysML2_GENERATED_NAME_64_62::PySysML2_GENERATED_NAME_65_64,TTRPGeToken@3_None::Behavior@60_3::Change displayed image on eToken@62_60::PySysML2_GENERATED_NAME_64_62@64_62::PySysML2_GENERATED_NAME_65_64@65_64,4,The user changes the displayed image on the eToken to one that is currently stored in storage
+Remove existing image form eToken@66_60,usecase,<modeling.element.Package object at 0x11e70d2e0>,66,64d4bf54-dc06-4345-99e9-933f6fbbf86e,60.0,f8d39a4a-0cca-4f4d-881c-be5178444396,,,,[None],,Use_case_defContext,"['case', 'def', 'use']",TTRPGeToken::Behavior::Remove existing image form eToken,TTRPGeToken@3_None::Behavior@60_3::Remove existing image form eToken@66_60,2,
+PySysML2_GENERATED_NAME_67_66@67_66,objective,<modeling.element.UseCase object at 0x11e70d400>,67,8ea7b772-81a7-456a-9dd9-15a5834d3540,66.0,64d4bf54-dc06-4345-99e9-933f6fbbf86e,,,,[None],,Objective_defContext,"['def', 'objective']",TTRPGeToken::Behavior::Remove existing image form eToken::PySysML2_GENERATED_NAME_67_66,TTRPGeToken@3_None::Behavior@60_3::Remove existing image form eToken@66_60::PySysML2_GENERATED_NAME_67_66@67_66,3,
+PySysML2_GENERATED_NAME_68_67@68_67,doc,<modeling.element.Objective object at 0x11e70d430>,68,6eebc945-aeeb-4eb0-a0ec-d1766c10eb36,67.0,8ea7b772-81a7-456a-9dd9-15a5834d3540,,,,[None],,Doc_unnamedContext,['doc'],TTRPGeToken::Behavior::Remove existing image form eToken::PySysML2_GENERATED_NAME_67_66::PySysML2_GENERATED_NAME_68_67,TTRPGeToken@3_None::Behavior@60_3::Remove existing image form eToken@66_60::PySysML2_GENERATED_NAME_67_66@67_66::PySysML2_GENERATED_NAME_68_67@68_67,4,The user deletes an image from the eToken currently stored in storage
+user@69_66,specializes,<modeling.element.UseCase object at 0x11e70d400>,69,66288e19-fd52-4acf-bb03-898cead6b5ea,66.0,64d4bf54-dc06-4345-99e9-933f6fbbf86e,61.0,User@61_60,,[None],,Feature_actor_specializesContext,"['actor', 'specializes']",TTRPGeToken::Behavior::Remove existing image form eToken::user,TTRPGeToken@3_None::Behavior@60_3::Remove existing image form eToken@66_60::user@69_66,3,
+Load new image to eToken@70_60,usecase,<modeling.element.Package object at 0x11e70d2e0>,70,de13bfe9-4d69-471f-a403-725b2a6be1df,60.0,f8d39a4a-0cca-4f4d-881c-be5178444396,,,,[None],,Use_case_defContext,"['case', 'def', 'use']",TTRPGeToken::Behavior::Load new image to eToken,TTRPGeToken@3_None::Behavior@60_3::Load new image to eToken@70_60,2,
+PySysML2_GENERATED_NAME_71_70@71_70,objective,<modeling.element.UseCase object at 0x11e70d4c0>,71,1abd5747-e1ae-499f-8dac-5e44925ad147,70.0,de13bfe9-4d69-471f-a403-725b2a6be1df,,,,[None],,Objective_defContext,"['def', 'objective']",TTRPGeToken::Behavior::Load new image to eToken::PySysML2_GENERATED_NAME_71_70,TTRPGeToken@3_None::Behavior@60_3::Load new image to eToken@70_60::PySysML2_GENERATED_NAME_71_70@71_70,3,
+PySysML2_GENERATED_NAME_72_71@72_71,doc,<modeling.element.Objective object at 0x11e70d4f0>,72,43d65d5e-4d19-447c-aa8c-05aa7db3dac5,71.0,1abd5747-e1ae-499f-8dac-5e44925ad147,,,,[None],,Doc_unnamedContext,['doc'],TTRPGeToken::Behavior::Load new image to eToken::PySysML2_GENERATED_NAME_71_70::PySysML2_GENERATED_NAME_72_71,TTRPGeToken@3_None::Behavior@60_3::Load new image to eToken@70_60::PySysML2_GENERATED_NAME_71_70@71_70::PySysML2_GENERATED_NAME_72_71@72_71,4,The user uploads a new image to the eToken's storage
+user@73_70,specializes,<modeling.element.UseCase object at 0x11e70d4c0>,73,6f7b818d-d6d6-46ae-9c74-b82d29bd9b4d,70.0,de13bfe9-4d69-471f-a403-725b2a6be1df,61.0,User@61_60,,[None],,Feature_actor_specializesContext,"['actor', 'specializes']",TTRPGeToken::Behavior::Load new image to eToken::user,TTRPGeToken@3_None::Behavior@60_3::Load new image to eToken@70_60::user@73_70,3,
+Use eToken as game piece@74_60,usecase,<modeling.element.Package object at 0x11e70d2e0>,74,f48b543a-5815-4c1f-8b79-9a317a5e322b,60.0,f8d39a4a-0cca-4f4d-881c-be5178444396,,,,[None],,Use_case_defContext,"['case', 'def', 'use']",TTRPGeToken::Behavior::Use eToken as game piece,TTRPGeToken@3_None::Behavior@60_3::Use eToken as game piece@74_60,2,
+PySysML2_GENERATED_NAME_75_74@75_74,objective,<modeling.element.UseCase object at 0x11e70d580>,75,0025c33c-900d-4ef3-9ab1-929eb5748c7e,74.0,f48b543a-5815-4c1f-8b79-9a317a5e322b,,,,[None],,Objective_defContext,"['def', 'objective']",TTRPGeToken::Behavior::Use eToken as game piece::PySysML2_GENERATED_NAME_75_74,TTRPGeToken@3_None::Behavior@60_3::Use eToken as game piece@74_60::PySysML2_GENERATED_NAME_75_74@75_74,3,
+PySysML2_GENERATED_NAME_76_75@76_75,doc,<modeling.element.Objective object at 0x11e70d5b0>,76,64ce53f0-5d68-4d49-839b-ff06f02fd49d,75.0,0025c33c-900d-4ef3-9ab1-929eb5748c7e,,,,[None],,Doc_unnamedContext,['doc'],TTRPGeToken::Behavior::Use eToken as game piece::PySysML2_GENERATED_NAME_75_74::PySysML2_GENERATED_NAME_76_75,TTRPGeToken@3_None::Behavior@60_3::Use eToken as game piece@74_60::PySysML2_GENERATED_NAME_75_74@75_74::PySysML2_GENERATED_NAME_76_75@76_75,4,The user places the eToken on the board to use as a game piece
+user@77_74,specializes,<modeling.element.UseCase object at 0x11e70d580>,77,cefa15fb-0eeb-4c1a-a8bc-117d7ff7d46f,74.0,f48b543a-5815-4c1f-8b79-9a317a5e322b,61.0,User@61_60,,[None],,Feature_actor_specializesContext,"['actor', 'specializes']",TTRPGeToken::Behavior::Use eToken as game piece::user,TTRPGeToken@3_None::Behavior@60_3::Use eToken as game piece@74_60::user@77_74,3,

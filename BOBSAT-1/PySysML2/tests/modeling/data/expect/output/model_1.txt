@@ -1,0 +1,53 @@
+[root]: 
+└── [0]: Model@0_None
+    ├── [1]: PySysML2_GENERATED_NAME_1_0@1_0
+    ├── [2]: PySysML2_GENERATED_NAME_2_0@2_0
+    ├── [3]: Comment_1@3_0
+    ├── [4]: Structure@4_0
+    │   ├── [5]: WiFi Card@5_4
+    │   ├── [6]: Bluetooth Card@6_4
+    │   ├── [7]: Icon@7_4
+    │   ├── [8]: Controller Board@8_4
+    │   │   ├── [9]: wifi card@9_8
+    │   │   ├── [10]: bluetooth card@10_8
+    │   │   ├── [11]: RAM@11_8
+    │   │   ├── [12]: Primary Interface@12_8
+    │   │   ├── [13]: Secondary Interface@13_8
+    │   │   ├── [14]: WiFi Frequency@14_8
+    │   │   ├── [15]: WiFi Protocol@15_8
+    │   │   └── [16]: Bluetooth Capable@16_8
+    │   ├── [17]: LCD Display@17_4
+    │   ├── [18]: Battery@18_4
+    │   ├── [19]: Raspberry Pi Pico Wireless@19_4
+    │   │   ├── [20]: RAM@20_19
+    │   │   ├── [21]: Bluetooth Capable@21_19
+    │   │   ├── [22]: Primary Interface@22_19
+    │   │   ├── [23]: Secondary Interface@23_19
+    │   │   ├── [24]: WiFi Protocol@24_19
+    │   │   └── [25]: WiFi Frequency@25_19
+    │   ├── [26]: Bicool Round LCD IPS Display GC9A01@26_4
+    │   ├── [27]: TTRPG eToken System@27_4
+    │   │   ├── [28]: controller board@28_27
+    │   │   ├── [29]: lcd display@29_27
+    │   │   └── [30]: battery@30_27
+    │   └── [31]: TTRPG eToken System Prototype@31_4
+    │       ├── [32]: controller board@32_31
+    │       └── [33]: lcd display@33_31
+    └── [34]: Behavior@34_0
+        ├── [35]: User@35_34
+        ├── [36]: Change displayed image on eToken@36_34
+        │   ├── [37]: user@37_36
+        │   └── [38]: PySysML2_GENERATED_NAME_38_36@38_36
+        │       └── [39]: PySysML2_GENERATED_NAME_39_38@39_38
+        ├── [40]: Remove existing image form eToken@40_34
+        │   ├── [41]: PySysML2_GENERATED_NAME_41_40@41_40
+        │   │   └── [42]: PySysML2_GENERATED_NAME_42_41@42_41
+        │   └── [43]: user@43_40
+        ├── [44]: Load new image to eToken@44_34
+        │   ├── [45]: PySysML2_GENERATED_NAME_45_44@45_44
+        │   │   └── [46]: PySysML2_GENERATED_NAME_46_45@46_45
+        │   └── [47]: user@47_44
+        └── [48]: Use eToken as game piece@48_34
+            ├── [49]: PySysML2_GENERATED_NAME_49_48@49_48
+            │   └── [50]: PySysML2_GENERATED_NAME_50_49@50_49
+            └── [51]: user@51_48

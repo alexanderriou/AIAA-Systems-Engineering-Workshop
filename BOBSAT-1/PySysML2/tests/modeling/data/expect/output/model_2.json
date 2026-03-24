@@ -1,0 +1,2079 @@
+{
+  "children": [
+    {
+      "archtype": "element",
+      "constants": [
+        null
+      ],
+      "context_type": "Import_packageContext",
+      "element_text": null,
+      "fully_qualified_name": "ISQ",
+      "fully_qualified_name_tagged": "ISQ@0_None",
+      "idx": 0,
+      "idx_parent": null,
+      "idx_related_element": null,
+      "keywords": [
+        "import",
+        "package"
+      ],
+      "multiplicity": null,
+      "name": "ISQ@0_None",
+      "related_element_name": null,
+      "sysml2_layer": "Root Syntactic Element",
+      "sysml2_type": "import",
+      "tree_level": 0,
+      "uuid": "1bc64f76-0289-41eb-9323-0f07655cf541",
+      "uuid_parent": null,
+      "value_types": null
+    },
+    {
+      "archtype": "element",
+      "constants": [
+        null
+      ],
+      "context_type": "Import_packageContext",
+      "element_text": null,
+      "fully_qualified_name": "ISQSpaceTime",
+      "fully_qualified_name_tagged": "ISQSpaceTime@1_None",
+      "idx": 1,
+      "idx_parent": null,
+      "idx_related_element": null,
+      "keywords": [
+        "import",
+        "package"
+      ],
+      "multiplicity": null,
+      "name": "ISQSpaceTime@1_None",
+      "related_element_name": null,
+      "sysml2_layer": "Root Syntactic Element",
+      "sysml2_type": "import",
+      "tree_level": 0,
+      "uuid": "7a696422-3929-4378-a953-3e3b194fe440",
+      "uuid_parent": null,
+      "value_types": null
+    },
+    {
+      "archtype": "element",
+      "constants": [
+        null
+      ],
+      "context_type": "Import_packageContext",
+      "element_text": null,
+      "fully_qualified_name": "ScalarValues",
+      "fully_qualified_name_tagged": "ScalarValues@2_None",
+      "idx": 2,
+      "idx_parent": null,
+      "idx_related_element": null,
+      "keywords": [
+        "import",
+        "package"
+      ],
+      "multiplicity": null,
+      "name": "ScalarValues@2_None",
+      "related_element_name": null,
+      "sysml2_layer": "Root Syntactic Element",
+      "sysml2_type": "import",
+      "tree_level": 0,
+      "uuid": "c1c8bf9f-ff59-4560-8a6f-a3a95f41c1f0",
+      "uuid_parent": null,
+      "value_types": null
+    },
+    {
+      "archtype": "element",
+      "children": [
+        {
+          "archtype": "element",
+          "constants": [
+            null
+          ],
+          "context_type": "Doc_namedContext",
+          "element_text": " The TTRPGeToken is a device used for displaying NPC/PC avatars in a physical token that can be used in a Table Top RPG game. ",
+          "fully_qualified_name": "TTRPGeToken::overview",
+          "fully_qualified_name_tagged": "TTRPGeToken@3_None::overview@4_3",
+          "idx": 4,
+          "idx_parent": 3,
+          "idx_related_element": null,
+          "keywords": [
+            "doc"
+          ],
+          "multiplicity": null,
+          "name": "overview@4_3",
+          "related_element_name": null,
+          "sysml2_layer": "Root Syntactic Element",
+          "sysml2_type": "doc",
+          "tree_level": 1,
+          "uuid": "d8501875-16dc-48d5-a6c8-c19bd1f50ee3",
+          "uuid_parent": "edb5f1e3-bdcb-4182-833e-391543c23c16",
+          "value_types": null
+        },
+        {
+          "archtype": "element",
+          "constants": [
+            null
+          ],
+          "context_type": "Doc_unnamedContext",
+          "element_text": " TODO: include links to remotely hosted images ",
+          "fully_qualified_name": "TTRPGeToken::PySysML2_GENERATED_NAME_5_3",
+          "fully_qualified_name_tagged": "TTRPGeToken@3_None::PySysML2_GENERATED_NAME_5_3@5_3",
+          "idx": 5,
+          "idx_parent": 3,
+          "idx_related_element": null,
+          "keywords": [
+            "doc"
+          ],
+          "multiplicity": null,
+          "name": "PySysML2_GENERATED_NAME_5_3@5_3",
+          "related_element_name": null,
+          "sysml2_layer": "Root Syntactic Element",
+          "sysml2_type": "doc",
+          "tree_level": 1,
+          "uuid": "5035bd81-d2ba-4c06-b6c7-a5f4098101e3",
+          "uuid_parent": "edb5f1e3-bdcb-4182-833e-391543c23c16",
+          "value_types": null
+        },
+        {
+          "archtype": "element",
+          "constants": [
+            null
+          ],
+          "context_type": "Doc_unnamedContext",
+          "element_text": " TODO: include links to public facing documentation ",
+          "fully_qualified_name": "TTRPGeToken::PySysML2_GENERATED_NAME_6_3",
+          "fully_qualified_name_tagged": "TTRPGeToken@3_None::PySysML2_GENERATED_NAME_6_3@6_3",
+          "idx": 6,
+          "idx_parent": 3,
+          "idx_related_element": null,
+          "keywords": [
+            "doc"
+          ],
+          "multiplicity": null,
+          "name": "PySysML2_GENERATED_NAME_6_3@6_3",
+          "related_element_name": null,
+          "sysml2_layer": "Root Syntactic Element",
+          "sysml2_type": "doc",
+          "tree_level": 1,
+          "uuid": "d03c43a2-3889-4ef5-9a8d-71a030510311",
+          "uuid_parent": "edb5f1e3-bdcb-4182-833e-391543c23c16",
+          "value_types": null
+        },
+        {
+          "archtype": "element",
+          "constants": [
+            null
+          ],
+          "context_type": "Comment_namedContext",
+          "element_text": " TO: Maatlock: Please evaluate your vigorous use of commenting in the TTRPGeToken model. \n                          * Comment variety in the language seems... excessive. Don't get carried away!\n                          ",
+          "fully_qualified_name": "TTRPGeToken::RevComment_1",
+          "fully_qualified_name_tagged": "TTRPGeToken@3_None::RevComment_1@7_3",
+          "idx": 7,
+          "idx_parent": 3,
+          "idx_related_element": null,
+          "keywords": [
+            "comment"
+          ],
+          "multiplicity": null,
+          "name": "RevComment_1@7_3",
+          "related_element_name": null,
+          "sysml2_layer": "Root Syntactic Element",
+          "sysml2_type": "comment",
+          "tree_level": 1,
+          "uuid": "1e99a3e8-0559-4a9f-9279-28ba0a4eab52",
+          "uuid_parent": "edb5f1e3-bdcb-4182-833e-391543c23c16",
+          "value_types": null
+        },
+        {
+          "archtype": "element",
+          "children": [
+            {
+              "archtype": "element",
+              "constants": [
+                null
+              ],
+              "context_type": "Doc_namedContext",
+              "element_text": " The structure package will contain all structural elements of the model ",
+              "fully_qualified_name": "TTRPGeToken::Structure::overview",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::overview@9_8",
+              "idx": 9,
+              "idx_parent": 8,
+              "idx_related_element": null,
+              "keywords": [
+                "doc"
+              ],
+              "multiplicity": null,
+              "name": "overview@9_8",
+              "related_element_name": null,
+              "sysml2_layer": "Root Syntactic Element",
+              "sysml2_type": "doc",
+              "tree_level": 2,
+              "uuid": "8db853af-3042-4540-b330-ff9b851c5a70",
+              "uuid_parent": "5ef6133d-ea28-4fdd-b43c-c4675a624406",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Structure::WiFi Component",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::WiFi Component@10_8",
+              "idx": 10,
+              "idx_parent": 8,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "WiFi Component@10_8",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "e30e34b9-547e-4e41-b9e5-da7d2419cfe1",
+              "uuid_parent": "5ef6133d-ea28-4fdd-b43c-c4675a624406",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Structure::Bluetooth Component",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Bluetooth Component@11_8",
+              "idx": 11,
+              "idx_parent": 8,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "Bluetooth Component@11_8",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "25b1a838-bb2d-4bf9-956a-7caf123de76f",
+              "uuid_parent": "5ef6133d-ea28-4fdd-b43c-c4675a624406",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Integrated Wireless Chip::name",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Integrated Wireless Chip@12_8::name@13_12",
+                  "idx": 13,
+                  "idx_parent": 12,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "name@13_12",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "1f5c22ec-67c0-4135-ac26-feb826a673c5",
+                  "uuid_parent": "719bdad0-a215-4611-bb8c-d3dcbc2293d8",
+                  "value_types": "String"
+                },
+                {
+                  "archtype": "relationship",
+                  "children": [
+                    {
+                      "archtype": "element",
+                      "constants": [
+                        null
+                      ],
+                      "context_type": "Feature_attribute_defContext",
+                      "element_text": null,
+                      "fully_qualified_name": "TTRPGeToken::Structure::Integrated Wireless Chip::wifiComponent::WiFi Frequency",
+                      "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Integrated Wireless Chip@12_8::wifiComponent@14_12::WiFi Frequency@15_14",
+                      "idx": 15,
+                      "idx_parent": 14,
+                      "idx_related_element": null,
+                      "keywords": [
+                        "attribute",
+                        "def"
+                      ],
+                      "multiplicity": null,
+                      "name": "WiFi Frequency@15_14",
+                      "related_element_name": null,
+                      "sysml2_layer": "Systems Element",
+                      "sysml2_type": "attribute",
+                      "tree_level": 4,
+                      "uuid": "3633486b-9b6e-491b-8729-2d975617b759",
+                      "uuid_parent": "6236fff0-4857-43d4-acaa-c1271836776f",
+                      "value_types": "Real"
+                    },
+                    {
+                      "archtype": "element",
+                      "constants": [
+                        null
+                      ],
+                      "context_type": "Feature_attribute_defContext",
+                      "element_text": null,
+                      "fully_qualified_name": "TTRPGeToken::Structure::Integrated Wireless Chip::wifiComponent::WiFi Protocol",
+                      "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Integrated Wireless Chip@12_8::wifiComponent@14_12::WiFi Protocol@16_14",
+                      "idx": 16,
+                      "idx_parent": 14,
+                      "idx_related_element": null,
+                      "keywords": [
+                        "attribute",
+                        "def"
+                      ],
+                      "multiplicity": null,
+                      "name": "WiFi Protocol@16_14",
+                      "related_element_name": null,
+                      "sysml2_layer": "Systems Element",
+                      "sysml2_type": "attribute",
+                      "tree_level": 4,
+                      "uuid": "08f1ba13-0a53-40b0-a4ef-0ab03adeab23",
+                      "uuid_parent": "6236fff0-4857-43d4-acaa-c1271836776f",
+                      "value_types": "String"
+                    }
+                  ],
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Integrated Wireless Chip::wifiComponent",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Integrated Wireless Chip@12_8::wifiComponent@14_12",
+                  "idx": 14,
+                  "idx_parent": 12,
+                  "idx_related_element": 10,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "wifiComponent@14_12",
+                  "related_element_name": "WiFi Component@10_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "6236fff0-4857-43d4-acaa-c1271836776f",
+                  "uuid_parent": "719bdad0-a215-4611-bb8c-d3dcbc2293d8",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "children": [
+                    {
+                      "archtype": "element",
+                      "constants": [
+                        null
+                      ],
+                      "context_type": "Feature_attribute_defContext",
+                      "element_text": null,
+                      "fully_qualified_name": "TTRPGeToken::Structure::Integrated Wireless Chip::btComponent::Bluetooth Protocol",
+                      "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Integrated Wireless Chip@12_8::btComponent@17_12::Bluetooth Protocol@18_17",
+                      "idx": 18,
+                      "idx_parent": 17,
+                      "idx_related_element": null,
+                      "keywords": [
+                        "attribute",
+                        "def"
+                      ],
+                      "multiplicity": null,
+                      "name": "Bluetooth Protocol@18_17",
+                      "related_element_name": null,
+                      "sysml2_layer": "Systems Element",
+                      "sysml2_type": "attribute",
+                      "tree_level": 4,
+                      "uuid": "33cf9a9d-fbd4-4788-bb2e-40e5a43583d1",
+                      "uuid_parent": "35f8ae37-4a76-4deb-9bbf-ec8001a62476",
+                      "value_types": "String"
+                    }
+                  ],
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Integrated Wireless Chip::btComponent",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Integrated Wireless Chip@12_8::btComponent@17_12",
+                  "idx": 17,
+                  "idx_parent": 12,
+                  "idx_related_element": 11,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "btComponent@17_12",
+                  "related_element_name": "Bluetooth Component@11_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "35f8ae37-4a76-4deb-9bbf-ec8001a62476",
+                  "uuid_parent": "719bdad0-a215-4611-bb8c-d3dcbc2293d8",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Structure::Integrated Wireless Chip",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Integrated Wireless Chip@12_8",
+              "idx": 12,
+              "idx_parent": 8,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "Integrated Wireless Chip@12_8",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "719bdad0-a215-4611-bb8c-d3dcbc2293d8",
+              "uuid_parent": "5ef6133d-ea28-4fdd-b43c-c4675a624406",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Part_def_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Controller Board::wChip",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Controller Board@19_8::wChip@20_19",
+                  "idx": 20,
+                  "idx_parent": 19,
+                  "idx_related_element": 12,
+                  "keywords": [
+                    "def",
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "wChip@20_19",
+                  "related_element_name": "Integrated Wireless Chip@12_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "510c733f-8673-4815-9d0c-56f29e6ed224",
+                  "uuid_parent": "0561ef65-f436-4ab2-b5cd-465652c2379a",
+                  "value_types": null
+                },
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Controller Board::RAM_kb",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Controller Board@19_8::RAM_kb@21_19",
+                  "idx": 21,
+                  "idx_parent": 19,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "RAM_kb@21_19",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "06417b8d-b2eb-4e7e-b539-2b50d52d70d3",
+                  "uuid_parent": "0561ef65-f436-4ab2-b5cd-465652c2379a",
+                  "value_types": "Integer"
+                },
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Controller Board::Primary Interface",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Controller Board@19_8::Primary Interface@22_19",
+                  "idx": 22,
+                  "idx_parent": 19,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "Primary Interface@22_19",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "b6b533f4-c7c5-4f26-b544-eba3bb18fc7a",
+                  "uuid_parent": "0561ef65-f436-4ab2-b5cd-465652c2379a",
+                  "value_types": "String"
+                },
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Controller Board::Secondary Interface",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Controller Board@19_8::Secondary Interface@23_19",
+                  "idx": 23,
+                  "idx_parent": 19,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "Secondary Interface@23_19",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "81067d7d-a79a-435a-9b9d-cd48eeadf172",
+                  "uuid_parent": "0561ef65-f436-4ab2-b5cd-465652c2379a",
+                  "value_types": "String"
+                },
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Controller Board::Bluetooth Capable",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Controller Board@19_8::Bluetooth Capable@24_19",
+                  "idx": 24,
+                  "idx_parent": 19,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "Bluetooth Capable@24_19",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "4c730db4-fa9f-4f02-81e2-308c038f4d16",
+                  "uuid_parent": "0561ef65-f436-4ab2-b5cd-465652c2379a",
+                  "value_types": "Boolean"
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Structure::Controller Board",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Controller Board@19_8",
+              "idx": 19,
+              "idx_parent": 8,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "Controller Board@19_8",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "0561ef65-f436-4ab2-b5cd-465652c2379a",
+              "uuid_parent": "5ef6133d-ea28-4fdd-b43c-c4675a624406",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Structure::LCD Display",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::LCD Display@25_8",
+              "idx": 25,
+              "idx_parent": 8,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "LCD Display@25_8",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "a46f2327-9b84-42ac-9123-c18313bf16e1",
+              "uuid_parent": "5ef6133d-ea28-4fdd-b43c-c4675a624406",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Battery::isRechargeable",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Battery@26_8::isRechargeable@27_26",
+                  "idx": 27,
+                  "idx_parent": 26,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "isRechargeable@27_26",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "0f7d4aa4-d518-4472-8603-52506edcbdd6",
+                  "uuid_parent": "11d4a91b-ec33-47d6-b098-41edf1bd47d7",
+                  "value_types": "Boolean"
+                },
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Battery::Battery Type",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Battery@26_8::Battery Type@28_26",
+                  "idx": 28,
+                  "idx_parent": 26,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "Battery Type@28_26",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "778b6d42-217d-4cce-9b7c-2ac917bdd7be",
+                  "uuid_parent": "11d4a91b-ec33-47d6-b098-41edf1bd47d7",
+                  "value_types": "String"
+                },
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Battery::name",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Battery@26_8::name@29_26",
+                  "idx": 29,
+                  "idx_parent": 26,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "name@29_26",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "cd83547c-995d-4eeb-a4fa-494dd3a5a84f",
+                  "uuid_parent": "11d4a91b-ec33-47d6-b098-41edf1bd47d7",
+                  "value_types": "String"
+                },
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Battery::avg_voltage_V",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Battery@26_8::avg_voltage_V@30_26",
+                  "idx": 30,
+                  "idx_parent": 26,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "avg_voltage_V@30_26",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "f7263da9-0a29-4650-90a1-e0f47d6d7e3b",
+                  "uuid_parent": "11d4a91b-ec33-47d6-b098-41edf1bd47d7",
+                  "value_types": "Real"
+                },
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_attribute_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Battery::avg_capacity_mAh",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Battery@26_8::avg_capacity_mAh@31_26",
+                  "idx": 31,
+                  "idx_parent": 26,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "attribute",
+                    "def"
+                  ],
+                  "multiplicity": null,
+                  "name": "avg_capacity_mAh@31_26",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "attribute",
+                  "tree_level": 3,
+                  "uuid": "217d36a0-3eb8-4c5f-a075-99ab3e07ca1d",
+                  "uuid_parent": "11d4a91b-ec33-47d6-b098-41edf1bd47d7",
+                  "value_types": "Real"
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Structure::Battery",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Battery@26_8",
+              "idx": 26,
+              "idx_parent": 8,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "Battery@26_8",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "11d4a91b-ec33-47d6-b098-41edf1bd47d7",
+              "uuid_parent": "5ef6133d-ea28-4fdd-b43c-c4675a624406",
+              "value_types": null
+            },
+            {
+              "archtype": "relationship",
+              "children": [
+                {
+                  "archtype": "element",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Doc_namedContext",
+                  "element_text": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+                  "fully_qualified_name": "TTRPGeToken::Structure::Raspberry Pi Pico Wireless::info",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::info@33_32",
+                  "idx": 33,
+                  "idx_parent": 32,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "doc"
+                  ],
+                  "multiplicity": null,
+                  "name": "info@33_32",
+                  "related_element_name": null,
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "doc",
+                  "tree_level": 3,
+                  "uuid": "0f6e5031-dd83-4121-8dff-157600a69d58",
+                  "uuid_parent": "7d3be561-096d-4097-bdcd-5abba0955081",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "children": [
+                    {
+                      "archtype": "relationship",
+                      "constants": [
+                        "Infineon CYW43439"
+                      ],
+                      "context_type": "Feature_attribute_redefinesContext",
+                      "element_text": null,
+                      "fully_qualified_name": "TTRPGeToken::Structure::Raspberry Pi Pico Wireless::wChip_PiPicoW::name",
+                      "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::wChip_PiPicoW@34_32::name@35_34",
+                      "idx": 35,
+                      "idx_parent": 34,
+                      "idx_related_element": 13,
+                      "keywords": [
+                        "attribute",
+                        "redefines"
+                      ],
+                      "multiplicity": null,
+                      "name": "name@35_34",
+                      "related_element_name": "name@13_12",
+                      "sysml2_layer": "Root Syntactic Element",
+                      "sysml2_type": "redefines",
+                      "tree_level": 4,
+                      "uuid": "525f2c51-dce9-46bf-a629-32eeb02e1c2f",
+                      "uuid_parent": "5cfed0f3-8a3c-47fe-ade7-2254e4b20532",
+                      "value_types": "String"
+                    },
+                    {
+                      "archtype": "relationship",
+                      "children": [
+                        {
+                          "archtype": "relationship",
+                          "constants": [
+                            "2.4"
+                          ],
+                          "context_type": "Feature_attribute_redefinesContext",
+                          "element_text": null,
+                          "fully_qualified_name": "TTRPGeToken::Structure::Raspberry Pi Pico Wireless::wChip_PiPicoW::wifiComponet_PiPicoW::WiFi Frequency",
+                          "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::wChip_PiPicoW@34_32::wifiComponet_PiPicoW@36_34::WiFi Frequency@37_36",
+                          "idx": 37,
+                          "idx_parent": 36,
+                          "idx_related_element": 15,
+                          "keywords": [
+                            "attribute",
+                            "redefines"
+                          ],
+                          "multiplicity": null,
+                          "name": "WiFi Frequency@37_36",
+                          "related_element_name": "WiFi Frequency@15_14",
+                          "sysml2_layer": "Root Syntactic Element",
+                          "sysml2_type": "redefines",
+                          "tree_level": 5,
+                          "uuid": "37919c2a-a614-4464-a981-408285fc1b10",
+                          "uuid_parent": "c8d7331d-9fbb-4aa0-b4e2-feb4908c6769",
+                          "value_types": "Real"
+                        },
+                        {
+                          "archtype": "relationship",
+                          "constants": [
+                            "IEEE 802.11 b/g/n wireless LAN"
+                          ],
+                          "context_type": "Feature_attribute_redefinesContext",
+                          "element_text": null,
+                          "fully_qualified_name": "TTRPGeToken::Structure::Raspberry Pi Pico Wireless::wChip_PiPicoW::wifiComponet_PiPicoW::WiFi Protocol",
+                          "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::wChip_PiPicoW@34_32::wifiComponet_PiPicoW@36_34::WiFi Protocol@38_36",
+                          "idx": 38,
+                          "idx_parent": 36,
+                          "idx_related_element": 16,
+                          "keywords": [
+                            "attribute",
+                            "redefines"
+                          ],
+                          "multiplicity": null,
+                          "name": "WiFi Protocol@38_36",
+                          "related_element_name": "WiFi Protocol@16_14",
+                          "sysml2_layer": "Root Syntactic Element",
+                          "sysml2_type": "redefines",
+                          "tree_level": 5,
+                          "uuid": "45944c6c-015c-46fe-adf8-bef97ea9db96",
+                          "uuid_parent": "c8d7331d-9fbb-4aa0-b4e2-feb4908c6769",
+                          "value_types": "String"
+                        }
+                      ],
+                      "constants": [
+                        null
+                      ],
+                      "context_type": "Part_def_specializesContext",
+                      "element_text": null,
+                      "fully_qualified_name": "TTRPGeToken::Structure::Raspberry Pi Pico Wireless::wChip_PiPicoW::wifiComponet_PiPicoW",
+                      "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::wChip_PiPicoW@34_32::wifiComponet_PiPicoW@36_34",
+                      "idx": 36,
+                      "idx_parent": 34,
+                      "idx_related_element": 14,
+                      "keywords": [
+                        "def",
+                        "part",
+                        "specializes"
+                      ],
+                      "multiplicity": null,
+                      "name": "wifiComponet_PiPicoW@36_34",
+                      "related_element_name": "wifiComponent@14_12",
+                      "sysml2_layer": "Root Syntactic Element",
+                      "sysml2_type": "specializes",
+                      "tree_level": 4,
+                      "uuid": "c8d7331d-9fbb-4aa0-b4e2-feb4908c6769",
+                      "uuid_parent": "5cfed0f3-8a3c-47fe-ade7-2254e4b20532",
+                      "value_types": null
+                    },
+                    {
+                      "archtype": "relationship",
+                      "children": [
+                        {
+                          "archtype": "relationship",
+                          "constants": [
+                            "Bluetooth 5.2"
+                          ],
+                          "context_type": "Feature_attribute_redefinesContext",
+                          "element_text": null,
+                          "fully_qualified_name": "TTRPGeToken::Structure::Raspberry Pi Pico Wireless::wChip_PiPicoW::btComponet_PiPicoW::Bluetooth Protocol",
+                          "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::wChip_PiPicoW@34_32::btComponet_PiPicoW@39_34::Bluetooth Protocol@40_39",
+                          "idx": 40,
+                          "idx_parent": 39,
+                          "idx_related_element": 18,
+                          "keywords": [
+                            "attribute",
+                            "redefines"
+                          ],
+                          "multiplicity": null,
+                          "name": "Bluetooth Protocol@40_39",
+                          "related_element_name": "Bluetooth Protocol@18_17",
+                          "sysml2_layer": "Root Syntactic Element",
+                          "sysml2_type": "redefines",
+                          "tree_level": 5,
+                          "uuid": "abb025ae-bc9c-43f9-b601-f7e53c3a0bba",
+                          "uuid_parent": "3fcea8ff-5b45-4a13-b52a-325465ae15bd",
+                          "value_types": "String"
+                        }
+                      ],
+                      "constants": [
+                        null
+                      ],
+                      "context_type": "Part_def_specializesContext",
+                      "element_text": null,
+                      "fully_qualified_name": "TTRPGeToken::Structure::Raspberry Pi Pico Wireless::wChip_PiPicoW::btComponet_PiPicoW",
+                      "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::wChip_PiPicoW@34_32::btComponet_PiPicoW@39_34",
+                      "idx": 39,
+                      "idx_parent": 34,
+                      "idx_related_element": 17,
+                      "keywords": [
+                        "def",
+                        "part",
+                        "specializes"
+                      ],
+                      "multiplicity": null,
+                      "name": "btComponet_PiPicoW@39_34",
+                      "related_element_name": "btComponent@17_12",
+                      "sysml2_layer": "Root Syntactic Element",
+                      "sysml2_type": "specializes",
+                      "tree_level": 4,
+                      "uuid": "3fcea8ff-5b45-4a13-b52a-325465ae15bd",
+                      "uuid_parent": "5cfed0f3-8a3c-47fe-ade7-2254e4b20532",
+                      "value_types": null
+                    }
+                  ],
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Part_def_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Raspberry Pi Pico Wireless::wChip_PiPicoW",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::wChip_PiPicoW@34_32",
+                  "idx": 34,
+                  "idx_parent": 32,
+                  "idx_related_element": 20,
+                  "keywords": [
+                    "def",
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "wChip_PiPicoW@34_32",
+                  "related_element_name": "wChip@20_19",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "5cfed0f3-8a3c-47fe-ade7-2254e4b20532",
+                  "uuid_parent": "7d3be561-096d-4097-bdcd-5abba0955081",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "264"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Raspberry Pi Pico Wireless::RAM_kb",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::RAM_kb@41_32",
+                  "idx": 41,
+                  "idx_parent": 32,
+                  "idx_related_element": 21,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "RAM_kb@41_32",
+                  "related_element_name": "RAM_kb@21_19",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "3779ddd6-36f1-4616-95db-289b79a26b1a",
+                  "uuid_parent": "7d3be561-096d-4097-bdcd-5abba0955081",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "true"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Raspberry Pi Pico Wireless::Bluetooth Capable",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::Bluetooth Capable@42_32",
+                  "idx": 42,
+                  "idx_parent": 32,
+                  "idx_related_element": 24,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "Bluetooth Capable@42_32",
+                  "related_element_name": "Bluetooth Capable@24_19",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "e3339011-c0ee-4eab-88a6-c6f05f4c5fbb",
+                  "uuid_parent": "7d3be561-096d-4097-bdcd-5abba0955081",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "USB 1.1"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Raspberry Pi Pico Wireless::Primary Interface",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::Primary Interface@43_32",
+                  "idx": 43,
+                  "idx_parent": 32,
+                  "idx_related_element": 22,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "Primary Interface@43_32",
+                  "related_element_name": "Primary Interface@22_19",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "69c809a8-7005-4463-b6db-c71a01157ae3",
+                  "uuid_parent": "7d3be561-096d-4097-bdcd-5abba0955081",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "SPI"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::Raspberry Pi Pico Wireless::Secondary Interface",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8::Secondary Interface@44_32",
+                  "idx": 44,
+                  "idx_parent": 32,
+                  "idx_related_element": 23,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "Secondary Interface@44_32",
+                  "related_element_name": "Secondary Interface@23_19",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "2de85d32-e358-4825-8623-b4db52b37510",
+                  "uuid_parent": "7d3be561-096d-4097-bdcd-5abba0955081",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Part_def_specializesContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Structure::Raspberry Pi Pico Wireless",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Raspberry Pi Pico Wireless@32_8",
+              "idx": 32,
+              "idx_parent": 8,
+              "idx_related_element": 19,
+              "keywords": [
+                "def",
+                "part",
+                "specializes"
+              ],
+              "multiplicity": null,
+              "name": "Raspberry Pi Pico Wireless@32_8",
+              "related_element_name": "Controller Board@19_8",
+              "sysml2_layer": "Root Syntactic Element",
+              "sysml2_type": "specializes",
+              "tree_level": 2,
+              "uuid": "7d3be561-096d-4097-bdcd-5abba0955081",
+              "uuid_parent": "5ef6133d-ea28-4fdd-b43c-c4675a624406",
+              "value_types": null
+            },
+            {
+              "archtype": "relationship",
+              "children": [
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "false"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::AA Battery Duracell Quantum::isRechargeable",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::AA Battery Duracell Quantum@45_8::isRechargeable@46_45",
+                  "idx": 46,
+                  "idx_parent": 45,
+                  "idx_related_element": 27,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "isRechargeable@46_45",
+                  "related_element_name": "isRechargeable@27_26",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "3cc4c672-ef03-42a4-9854-d35a6dfa3cdd",
+                  "uuid_parent": "01c5b233-2e34-417b-80c9-a441d2adafb7",
+                  "value_types": "Boolean"
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "AA"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::AA Battery Duracell Quantum::Battery Type",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::AA Battery Duracell Quantum@45_8::Battery Type@47_45",
+                  "idx": 47,
+                  "idx_parent": 45,
+                  "idx_related_element": 28,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "Battery Type@47_45",
+                  "related_element_name": "Battery Type@28_26",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "8bc14336-7669-4043-bd08-050da501efc0",
+                  "uuid_parent": "01c5b233-2e34-417b-80c9-a441d2adafb7",
+                  "value_types": "String"
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "Duracell Quantum"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::AA Battery Duracell Quantum::name",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::AA Battery Duracell Quantum@45_8::name@48_45",
+                  "idx": 48,
+                  "idx_parent": 45,
+                  "idx_related_element": 13,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "name@48_45",
+                  "related_element_name": "name@13_12",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "7988916c-f062-475a-9053-e23547016fd7",
+                  "uuid_parent": "01c5b233-2e34-417b-80c9-a441d2adafb7",
+                  "value_types": "String"
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "1.5"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::AA Battery Duracell Quantum::avg_voltage_V",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::AA Battery Duracell Quantum@45_8::avg_voltage_V@49_45",
+                  "idx": 49,
+                  "idx_parent": 45,
+                  "idx_related_element": 30,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "avg_voltage_V@49_45",
+                  "related_element_name": "avg_voltage_V@30_26",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "70626db2-7249-45d5-9f19-93a178789cbf",
+                  "uuid_parent": "01c5b233-2e34-417b-80c9-a441d2adafb7",
+                  "value_types": "Real"
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    "2350.0"
+                  ],
+                  "context_type": "Feature_attribute_redefinesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::AA Battery Duracell Quantum::avg_capacity_mAh",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::AA Battery Duracell Quantum@45_8::avg_capacity_mAh@50_45",
+                  "idx": 50,
+                  "idx_parent": 45,
+                  "idx_related_element": 31,
+                  "keywords": [
+                    "attribute",
+                    "redefines"
+                  ],
+                  "multiplicity": null,
+                  "name": "avg_capacity_mAh@50_45",
+                  "related_element_name": "avg_capacity_mAh@31_26",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "redefines",
+                  "tree_level": 3,
+                  "uuid": "c8f87e5b-f500-4d40-9352-57f110071c94",
+                  "uuid_parent": "01c5b233-2e34-417b-80c9-a441d2adafb7",
+                  "value_types": "Real"
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Part_def_specializesContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Structure::AA Battery Duracell Quantum",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::AA Battery Duracell Quantum@45_8",
+              "idx": 45,
+              "idx_parent": 8,
+              "idx_related_element": 26,
+              "keywords": [
+                "def",
+                "part",
+                "specializes"
+              ],
+              "multiplicity": null,
+              "name": "AA Battery Duracell Quantum@45_8",
+              "related_element_name": "Battery@26_8",
+              "sysml2_layer": "Root Syntactic Element",
+              "sysml2_type": "specializes",
+              "tree_level": 2,
+              "uuid": "01c5b233-2e34-417b-80c9-a441d2adafb7",
+              "uuid_parent": "5ef6133d-ea28-4fdd-b43c-c4675a624406",
+              "value_types": null
+            },
+            {
+              "archtype": "relationship",
+              "constants": [
+                null
+              ],
+              "context_type": "Part_def_specializesContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Structure::Bicool Round LCD IPS Display GC9A01",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::Bicool Round LCD IPS Display GC9A01@51_8",
+              "idx": 51,
+              "idx_parent": 8,
+              "idx_related_element": 25,
+              "keywords": [
+                "def",
+                "part",
+                "specializes"
+              ],
+              "multiplicity": null,
+              "name": "Bicool Round LCD IPS Display GC9A01@51_8",
+              "related_element_name": "LCD Display@25_8",
+              "sysml2_layer": "Root Syntactic Element",
+              "sysml2_type": "specializes",
+              "tree_level": 2,
+              "uuid": "93da7fd9-3bb2-4148-8b92-2f6897063ff1",
+              "uuid_parent": "5ef6133d-ea28-4fdd-b43c-c4675a624406",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::TTRPG eToken System::controller board",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System@52_8::controller board@53_52",
+                  "idx": 53,
+                  "idx_parent": 52,
+                  "idx_related_element": 19,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "controller board@53_52",
+                  "related_element_name": "Controller Board@19_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "3b1c623a-276e-4c96-a054-bbbda4c145e7",
+                  "uuid_parent": "694c4eac-3e6d-43d9-bf64-da17965f6c7e",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::TTRPG eToken System::lcd display",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System@52_8::lcd display@54_52",
+                  "idx": 54,
+                  "idx_parent": 52,
+                  "idx_related_element": 25,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "lcd display@54_52",
+                  "related_element_name": "LCD Display@25_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "4d8dff1e-823b-4f80-a03d-432684a3a3e5",
+                  "uuid_parent": "694c4eac-3e6d-43d9-bf64-da17965f6c7e",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::TTRPG eToken System::battery",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System@52_8::battery@55_52",
+                  "idx": 55,
+                  "idx_parent": 52,
+                  "idx_related_element": 26,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": "[1..2]",
+                  "name": "battery@55_52",
+                  "related_element_name": "Battery@26_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "9b727d6b-b1f6-4302-b528-72fb2220374e",
+                  "uuid_parent": "694c4eac-3e6d-43d9-bf64-da17965f6c7e",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Structure::TTRPG eToken System",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System@52_8",
+              "idx": 52,
+              "idx_parent": 8,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "TTRPG eToken System@52_8",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "694c4eac-3e6d-43d9-bf64-da17965f6c7e",
+              "uuid_parent": "5ef6133d-ea28-4fdd-b43c-c4675a624406",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::TTRPG eToken System Prototype::controller board",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System Prototype@56_8::controller board@57_56",
+                  "idx": 57,
+                  "idx_parent": 56,
+                  "idx_related_element": 32,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "controller board@57_56",
+                  "related_element_name": "Raspberry Pi Pico Wireless@32_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "15420046-4a05-4a6e-9f77-ec1c62562b90",
+                  "uuid_parent": "02fb5ed2-66b7-4fd4-95ea-ca9b243ed956",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::TTRPG eToken System Prototype::lcd display",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System Prototype@56_8::lcd display@58_56",
+                  "idx": 58,
+                  "idx_parent": 56,
+                  "idx_related_element": 51,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "lcd display@58_56",
+                  "related_element_name": "Bicool Round LCD IPS Display GC9A01@51_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "2460e7b9-783c-4928-a0a1-8f2ef5a8b8e2",
+                  "uuid_parent": "02fb5ed2-66b7-4fd4-95ea-ca9b243ed956",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_part_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Structure::TTRPG eToken System Prototype::battery",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System Prototype@56_8::battery@59_56",
+                  "idx": 59,
+                  "idx_parent": 56,
+                  "idx_related_element": 45,
+                  "keywords": [
+                    "part",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "battery@59_56",
+                  "related_element_name": "AA Battery Duracell Quantum@45_8",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "e70622da-1b05-43cf-a217-39bc5733342d",
+                  "uuid_parent": "02fb5ed2-66b7-4fd4-95ea-ca9b243ed956",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Structure::TTRPG eToken System Prototype",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3::TTRPG eToken System Prototype@56_8",
+              "idx": 56,
+              "idx_parent": 8,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "TTRPG eToken System Prototype@56_8",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "02fb5ed2-66b7-4fd4-95ea-ca9b243ed956",
+              "uuid_parent": "5ef6133d-ea28-4fdd-b43c-c4675a624406",
+              "value_types": null
+            }
+          ],
+          "constants": [
+            null
+          ],
+          "context_type": "Sysml2_packageContext",
+          "element_text": null,
+          "fully_qualified_name": "TTRPGeToken::Structure",
+          "fully_qualified_name_tagged": "TTRPGeToken@3_None::Structure@8_3",
+          "idx": 8,
+          "idx_parent": 3,
+          "idx_related_element": null,
+          "keywords": [
+            "package"
+          ],
+          "multiplicity": null,
+          "name": "Structure@8_3",
+          "related_element_name": null,
+          "sysml2_layer": "Kernel Element",
+          "sysml2_type": "package",
+          "tree_level": 1,
+          "uuid": "5ef6133d-ea28-4fdd-b43c-c4675a624406",
+          "uuid_parent": "edb5f1e3-bdcb-4182-833e-391543c23c16",
+          "value_types": null
+        },
+        {
+          "archtype": "element",
+          "children": [
+            {
+              "archtype": "element",
+              "constants": [
+                null
+              ],
+              "context_type": "Part_defContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Behavior::User",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::User@61_60",
+              "idx": 61,
+              "idx_parent": 60,
+              "idx_related_element": null,
+              "keywords": [
+                "def",
+                "part"
+              ],
+              "multiplicity": null,
+              "name": "User@61_60",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "part",
+              "tree_level": 2,
+              "uuid": "d42a5b47-3f2c-460e-a1e3-ff9e19a64369",
+              "uuid_parent": "f8d39a4a-0cca-4f4d-881c-be5178444396",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_actor_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Behavior::Change displayed image on eToken::user",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Change displayed image on eToken@62_60::user@63_62",
+                  "idx": 63,
+                  "idx_parent": 62,
+                  "idx_related_element": 61,
+                  "keywords": [
+                    "actor",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "user@63_62",
+                  "related_element_name": "User@61_60",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "536d9142-e4af-4e1c-91e7-ed0dd9437c45",
+                  "uuid_parent": "3be42adb-9c5e-4be6-97bc-479879c7baea",
+                  "value_types": null
+                },
+                {
+                  "archtype": "element",
+                  "children": [
+                    {
+                      "archtype": "element",
+                      "constants": [
+                        null
+                      ],
+                      "context_type": "Doc_unnamedContext",
+                      "element_text": "The user changes the displayed image on the eToken to one that is currently stored in storage",
+                      "fully_qualified_name": "TTRPGeToken::Behavior::Change displayed image on eToken::PySysML2_GENERATED_NAME_64_62::PySysML2_GENERATED_NAME_65_64",
+                      "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Change displayed image on eToken@62_60::PySysML2_GENERATED_NAME_64_62@64_62::PySysML2_GENERATED_NAME_65_64@65_64",
+                      "idx": 65,
+                      "idx_parent": 64,
+                      "idx_related_element": null,
+                      "keywords": [
+                        "doc"
+                      ],
+                      "multiplicity": null,
+                      "name": "PySysML2_GENERATED_NAME_65_64@65_64",
+                      "related_element_name": null,
+                      "sysml2_layer": "Root Syntactic Element",
+                      "sysml2_type": "doc",
+                      "tree_level": 4,
+                      "uuid": "2c900019-7994-48a4-840f-9181d4658e04",
+                      "uuid_parent": "e0351b66-1b70-4e0c-b9ef-e10cd6de2236",
+                      "value_types": null
+                    }
+                  ],
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Objective_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Behavior::Change displayed image on eToken::PySysML2_GENERATED_NAME_64_62",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Change displayed image on eToken@62_60::PySysML2_GENERATED_NAME_64_62@64_62",
+                  "idx": 64,
+                  "idx_parent": 62,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "def",
+                    "objective"
+                  ],
+                  "multiplicity": null,
+                  "name": "PySysML2_GENERATED_NAME_64_62@64_62",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "objective",
+                  "tree_level": 3,
+                  "uuid": "e0351b66-1b70-4e0c-b9ef-e10cd6de2236",
+                  "uuid_parent": "3be42adb-9c5e-4be6-97bc-479879c7baea",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Use_case_defContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Behavior::Change displayed image on eToken",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Change displayed image on eToken@62_60",
+              "idx": 62,
+              "idx_parent": 60,
+              "idx_related_element": null,
+              "keywords": [
+                "case",
+                "def",
+                "use"
+              ],
+              "multiplicity": null,
+              "name": "Change displayed image on eToken@62_60",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "usecase",
+              "tree_level": 2,
+              "uuid": "3be42adb-9c5e-4be6-97bc-479879c7baea",
+              "uuid_parent": "f8d39a4a-0cca-4f4d-881c-be5178444396",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "element",
+                  "children": [
+                    {
+                      "archtype": "element",
+                      "constants": [
+                        null
+                      ],
+                      "context_type": "Doc_unnamedContext",
+                      "element_text": "The user deletes an image from the eToken currently stored in storage",
+                      "fully_qualified_name": "TTRPGeToken::Behavior::Remove existing image form eToken::PySysML2_GENERATED_NAME_67_66::PySysML2_GENERATED_NAME_68_67",
+                      "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Remove existing image form eToken@66_60::PySysML2_GENERATED_NAME_67_66@67_66::PySysML2_GENERATED_NAME_68_67@68_67",
+                      "idx": 68,
+                      "idx_parent": 67,
+                      "idx_related_element": null,
+                      "keywords": [
+                        "doc"
+                      ],
+                      "multiplicity": null,
+                      "name": "PySysML2_GENERATED_NAME_68_67@68_67",
+                      "related_element_name": null,
+                      "sysml2_layer": "Root Syntactic Element",
+                      "sysml2_type": "doc",
+                      "tree_level": 4,
+                      "uuid": "6eebc945-aeeb-4eb0-a0ec-d1766c10eb36",
+                      "uuid_parent": "8ea7b772-81a7-456a-9dd9-15a5834d3540",
+                      "value_types": null
+                    }
+                  ],
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Objective_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Behavior::Remove existing image form eToken::PySysML2_GENERATED_NAME_67_66",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Remove existing image form eToken@66_60::PySysML2_GENERATED_NAME_67_66@67_66",
+                  "idx": 67,
+                  "idx_parent": 66,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "def",
+                    "objective"
+                  ],
+                  "multiplicity": null,
+                  "name": "PySysML2_GENERATED_NAME_67_66@67_66",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "objective",
+                  "tree_level": 3,
+                  "uuid": "8ea7b772-81a7-456a-9dd9-15a5834d3540",
+                  "uuid_parent": "64d4bf54-dc06-4345-99e9-933f6fbbf86e",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_actor_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Behavior::Remove existing image form eToken::user",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Remove existing image form eToken@66_60::user@69_66",
+                  "idx": 69,
+                  "idx_parent": 66,
+                  "idx_related_element": 61,
+                  "keywords": [
+                    "actor",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "user@69_66",
+                  "related_element_name": "User@61_60",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "66288e19-fd52-4acf-bb03-898cead6b5ea",
+                  "uuid_parent": "64d4bf54-dc06-4345-99e9-933f6fbbf86e",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Use_case_defContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Behavior::Remove existing image form eToken",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Remove existing image form eToken@66_60",
+              "idx": 66,
+              "idx_parent": 60,
+              "idx_related_element": null,
+              "keywords": [
+                "case",
+                "def",
+                "use"
+              ],
+              "multiplicity": null,
+              "name": "Remove existing image form eToken@66_60",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "usecase",
+              "tree_level": 2,
+              "uuid": "64d4bf54-dc06-4345-99e9-933f6fbbf86e",
+              "uuid_parent": "f8d39a4a-0cca-4f4d-881c-be5178444396",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "element",
+                  "children": [
+                    {
+                      "archtype": "element",
+                      "constants": [
+                        null
+                      ],
+                      "context_type": "Doc_unnamedContext",
+                      "element_text": "The user uploads a new image to the eToken's storage",
+                      "fully_qualified_name": "TTRPGeToken::Behavior::Load new image to eToken::PySysML2_GENERATED_NAME_71_70::PySysML2_GENERATED_NAME_72_71",
+                      "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Load new image to eToken@70_60::PySysML2_GENERATED_NAME_71_70@71_70::PySysML2_GENERATED_NAME_72_71@72_71",
+                      "idx": 72,
+                      "idx_parent": 71,
+                      "idx_related_element": null,
+                      "keywords": [
+                        "doc"
+                      ],
+                      "multiplicity": null,
+                      "name": "PySysML2_GENERATED_NAME_72_71@72_71",
+                      "related_element_name": null,
+                      "sysml2_layer": "Root Syntactic Element",
+                      "sysml2_type": "doc",
+                      "tree_level": 4,
+                      "uuid": "43d65d5e-4d19-447c-aa8c-05aa7db3dac5",
+                      "uuid_parent": "1abd5747-e1ae-499f-8dac-5e44925ad147",
+                      "value_types": null
+                    }
+                  ],
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Objective_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Behavior::Load new image to eToken::PySysML2_GENERATED_NAME_71_70",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Load new image to eToken@70_60::PySysML2_GENERATED_NAME_71_70@71_70",
+                  "idx": 71,
+                  "idx_parent": 70,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "def",
+                    "objective"
+                  ],
+                  "multiplicity": null,
+                  "name": "PySysML2_GENERATED_NAME_71_70@71_70",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "objective",
+                  "tree_level": 3,
+                  "uuid": "1abd5747-e1ae-499f-8dac-5e44925ad147",
+                  "uuid_parent": "de13bfe9-4d69-471f-a403-725b2a6be1df",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_actor_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Behavior::Load new image to eToken::user",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Load new image to eToken@70_60::user@73_70",
+                  "idx": 73,
+                  "idx_parent": 70,
+                  "idx_related_element": 61,
+                  "keywords": [
+                    "actor",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "user@73_70",
+                  "related_element_name": "User@61_60",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "6f7b818d-d6d6-46ae-9c74-b82d29bd9b4d",
+                  "uuid_parent": "de13bfe9-4d69-471f-a403-725b2a6be1df",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Use_case_defContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Behavior::Load new image to eToken",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Load new image to eToken@70_60",
+              "idx": 70,
+              "idx_parent": 60,
+              "idx_related_element": null,
+              "keywords": [
+                "case",
+                "def",
+                "use"
+              ],
+              "multiplicity": null,
+              "name": "Load new image to eToken@70_60",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "usecase",
+              "tree_level": 2,
+              "uuid": "de13bfe9-4d69-471f-a403-725b2a6be1df",
+              "uuid_parent": "f8d39a4a-0cca-4f4d-881c-be5178444396",
+              "value_types": null
+            },
+            {
+              "archtype": "element",
+              "children": [
+                {
+                  "archtype": "element",
+                  "children": [
+                    {
+                      "archtype": "element",
+                      "constants": [
+                        null
+                      ],
+                      "context_type": "Doc_unnamedContext",
+                      "element_text": "The user places the eToken on the board to use as a game piece",
+                      "fully_qualified_name": "TTRPGeToken::Behavior::Use eToken as game piece::PySysML2_GENERATED_NAME_75_74::PySysML2_GENERATED_NAME_76_75",
+                      "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Use eToken as game piece@74_60::PySysML2_GENERATED_NAME_75_74@75_74::PySysML2_GENERATED_NAME_76_75@76_75",
+                      "idx": 76,
+                      "idx_parent": 75,
+                      "idx_related_element": null,
+                      "keywords": [
+                        "doc"
+                      ],
+                      "multiplicity": null,
+                      "name": "PySysML2_GENERATED_NAME_76_75@76_75",
+                      "related_element_name": null,
+                      "sysml2_layer": "Root Syntactic Element",
+                      "sysml2_type": "doc",
+                      "tree_level": 4,
+                      "uuid": "64ce53f0-5d68-4d49-839b-ff06f02fd49d",
+                      "uuid_parent": "0025c33c-900d-4ef3-9ab1-929eb5748c7e",
+                      "value_types": null
+                    }
+                  ],
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Objective_defContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Behavior::Use eToken as game piece::PySysML2_GENERATED_NAME_75_74",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Use eToken as game piece@74_60::PySysML2_GENERATED_NAME_75_74@75_74",
+                  "idx": 75,
+                  "idx_parent": 74,
+                  "idx_related_element": null,
+                  "keywords": [
+                    "def",
+                    "objective"
+                  ],
+                  "multiplicity": null,
+                  "name": "PySysML2_GENERATED_NAME_75_74@75_74",
+                  "related_element_name": null,
+                  "sysml2_layer": "Systems Element",
+                  "sysml2_type": "objective",
+                  "tree_level": 3,
+                  "uuid": "0025c33c-900d-4ef3-9ab1-929eb5748c7e",
+                  "uuid_parent": "f48b543a-5815-4c1f-8b79-9a317a5e322b",
+                  "value_types": null
+                },
+                {
+                  "archtype": "relationship",
+                  "constants": [
+                    null
+                  ],
+                  "context_type": "Feature_actor_specializesContext",
+                  "element_text": null,
+                  "fully_qualified_name": "TTRPGeToken::Behavior::Use eToken as game piece::user",
+                  "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Use eToken as game piece@74_60::user@77_74",
+                  "idx": 77,
+                  "idx_parent": 74,
+                  "idx_related_element": 61,
+                  "keywords": [
+                    "actor",
+                    "specializes"
+                  ],
+                  "multiplicity": null,
+                  "name": "user@77_74",
+                  "related_element_name": "User@61_60",
+                  "sysml2_layer": "Root Syntactic Element",
+                  "sysml2_type": "specializes",
+                  "tree_level": 3,
+                  "uuid": "cefa15fb-0eeb-4c1a-a8bc-117d7ff7d46f",
+                  "uuid_parent": "f48b543a-5815-4c1f-8b79-9a317a5e322b",
+                  "value_types": null
+                }
+              ],
+              "constants": [
+                null
+              ],
+              "context_type": "Use_case_defContext",
+              "element_text": null,
+              "fully_qualified_name": "TTRPGeToken::Behavior::Use eToken as game piece",
+              "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3::Use eToken as game piece@74_60",
+              "idx": 74,
+              "idx_parent": 60,
+              "idx_related_element": null,
+              "keywords": [
+                "case",
+                "def",
+                "use"
+              ],
+              "multiplicity": null,
+              "name": "Use eToken as game piece@74_60",
+              "related_element_name": null,
+              "sysml2_layer": "Systems Element",
+              "sysml2_type": "usecase",
+              "tree_level": 2,
+              "uuid": "f48b543a-5815-4c1f-8b79-9a317a5e322b",
+              "uuid_parent": "f8d39a4a-0cca-4f4d-881c-be5178444396",
+              "value_types": null
+            }
+          ],
+          "constants": [
+            null
+          ],
+          "context_type": "Sysml2_packageContext",
+          "element_text": null,
+          "fully_qualified_name": "TTRPGeToken::Behavior",
+          "fully_qualified_name_tagged": "TTRPGeToken@3_None::Behavior@60_3",
+          "idx": 60,
+          "idx_parent": 3,
+          "idx_related_element": null,
+          "keywords": [
+            "package"
+          ],
+          "multiplicity": null,
+          "name": "Behavior@60_3",
+          "related_element_name": null,
+          "sysml2_layer": "Kernel Element",
+          "sysml2_type": "package",
+          "tree_level": 1,
+          "uuid": "f8d39a4a-0cca-4f4d-881c-be5178444396",
+          "uuid_parent": "edb5f1e3-bdcb-4182-833e-391543c23c16",
+          "value_types": null
+        }
+      ],
+      "constants": [
+        null
+      ],
+      "context_type": "Sysml2_packageContext",
+      "element_text": null,
+      "fully_qualified_name": "TTRPGeToken",
+      "fully_qualified_name_tagged": "TTRPGeToken@3_None",
+      "idx": 3,
+      "idx_parent": null,
+      "idx_related_element": null,
+      "keywords": [
+        "package"
+      ],
+      "multiplicity": null,
+      "name": "TTRPGeToken@3_None",
+      "related_element_name": null,
+      "sysml2_layer": "Kernel Element",
+      "sysml2_type": "package",
+      "tree_level": 0,
+      "uuid": "edb5f1e3-bdcb-4182-833e-391543c23c16",
+      "uuid_parent": null,
+      "value_types": null
+    }
+  ],
+  "input_file": "./test_models/model_test_2.sysml2",
+  "name": "root",
+  "sysml2_visitor": "<class 'pysysml2.grammar.sysml2_model_visitor.ModelTreeSysML2Visitor'>"
+}
